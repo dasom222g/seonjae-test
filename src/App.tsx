@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { FC } from 'react'
 
-function App() {
+const App: FC = () => {
   return (
     <div className="App">
-      <div className="text-lg">Hello world</div>
+      <div className="text-7xl text-center font-bold text-red-500 p-9">Hello world</div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

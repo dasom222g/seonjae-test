@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" width="10" height="10">
+	<title>bg</title>
+	<defs>
+		<image  width="10" height="10" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKAgMAAADwXCcuAAAAAXNSR0IB2cksfwAAAAxQTFRF////////////////9aUOcwAAAAR0Uk5TlWajAPB9L7QAAAAVSURBVHicYxANTWCo/38BL54amgAAjukUhSQRx5sAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="레이어 2" href="#img1" x="0" y="0"/>
+</svg>

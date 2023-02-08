@@ -44,3 +44,15 @@ export interface MBTIQuestionType {
   lastType: CategoryType
   questionText: string
 }
+
+// type PartialRecord<K extends string | number, T> = { [P in K]?: T }
+
+interface resultMessageType {
+  id: number,
+  text: string
+}
+export interface ResultType {
+  id: number
+  type: string //'ENTJ..'
+  messageList: resultMessageType[]
+}

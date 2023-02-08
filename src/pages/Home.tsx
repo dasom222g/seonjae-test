@@ -5,7 +5,7 @@ const Home: FC = () => {
   return (
     <section>
       <div className="text-center">
-        <span className="text-sm p-2">갓생 지수 테스트</span>
+        <span className="p-2">갓생 지수 테스트</span>
         <p className="text-3xl font-bold p-2">나의 갓생 유형은?</p>
       </div>
       <div className="py-8">

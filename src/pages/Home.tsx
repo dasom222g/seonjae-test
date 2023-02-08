@@ -12,7 +12,7 @@ const Home: FC = () => {
         <img src="./images/god2.png" alt="홈화면 이미지" />
       </div>
       <Link
-        to="/question"
+        to="/test"
         type="button"
         className="block text-center w-full bg-mbti-deep-blue p-4 rounded-3xl text-sm text-white font-bold">
         갓생 유형 START

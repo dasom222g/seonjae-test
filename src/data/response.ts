@@ -1,4 +1,4 @@
-import { MBTIAnswerType, MBTIQuestionType, ResultType } from '../lib/type'
+import { MBTIAnswerType, MBTIQuestionType, resultButtonType, ResultType } from '../lib/type'
 
 export const mbtiQuestion: MBTIQuestionType[] = [
   {
@@ -357,8 +357,22 @@ export const mbtiResult: ResultType[] = [
       },
       {
         id: 3,
-        text: '론 본인이 느끼기에 게으름 피우는 날도 많아요. 근데 다른 사람들 눈에는? 그게 게으름으로 안 보일 뿐'
+        text: '물론 본인이 느끼기에 게으름 피우는 날도 많아요. 근데 다른 사람들 눈에는? 그게 게으름으로 안 보일 뿐'
       },
     ]
   }
+]
+
+export const resultButtonList:resultButtonType[] = [
+  {
+    id: 1,
+    type: 'link',
+    link: '/',
+    text: '다시 테스트하러 가기'
+  },
+  {
+    id: 1,
+    type: 'function',
+    text: '테스트 공유하기'
+  },
 ]

@@ -10,7 +10,9 @@ const Layout: FC<LayoutProps> = ({ children }) => {
     backgroundImage: 'url(/images/grid_bg.svg)',
   }
   return (
-    <div className="bg-mbti-light-mint bg-repeat min-h-screen h-full p-4" style={bgStyle}>
+    <div
+      className="bg-mbti-light-mint bg-repeat min-h-screen h-full p-4 overflow-auto"
+      style={bgStyle}>
       <div className="h-full flex flex-col">
         <Header />
         <main className="px-4 h-full"> {children}</main>

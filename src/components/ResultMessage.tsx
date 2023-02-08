@@ -7,11 +7,14 @@ interface ResultMessageProps {
 
 const ResultMessage: FC<ResultMessageProps> = ({ data }) => {
   return (
-    <div>
-      <span>나의 갓생 스타일은?</span>
+    <div className="bg-white px-4 rounded-md overflow-hidden">
+      <span className="block text-lg text-center py-4">나의 갓생 스타일은?</span>
       <ul>
         {data.messageList.map((message) => (
-          <li key={message.id}>{message.text}</li>
+          <li className="py-2 relative indent-3 text-sm" key={message.id}>
+            <i className="w-1 h-1 bg-slate-700 block absolute left-0 top-4"></i>
+            {message.text}
+          </li>
         ))}
       </ul>
     </div>

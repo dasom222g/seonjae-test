@@ -22,10 +22,16 @@ const categorys = {
   j: 'J',
 } as const
 
+const buttons = {
+  1: 'link',
+  2: 'function' 
+} as const
+
 export type IndicatorType = typeof indicators[keyof typeof indicators] // 'EI' | 'NS' | 'TF' | 'PJ'
 
 export type CategoryType = typeof categorys[keyof typeof categorys] // 'E' | 'I' | 'N' | 'S' ...
 
+export type ButtonType = typeof buttons[keyof typeof buttons] // 'link' | 'function'
 export interface MBTIAnswerType {
   id: number
   questionCode: number
@@ -55,4 +61,11 @@ export interface ResultType {
   id: number
   type: string //'ENTJ..'
   messageList: resultMessageType[]
+}
+
+export interface resultButtonType {
+  id: number
+  type: ButtonType,
+  text: string,
+  link?: string
 }

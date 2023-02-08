@@ -18,6 +18,7 @@ module.exports = {
         'mbti-light-coral': '#FECCBE',
         'mbti-deep-blue': '#645CBB',
         'mbti-purple': '#FF90DF',
+        'mbti-deep-purple': '#6D67E4',
         'mbti-gray': '#4A4737',
         'mbti-red': '#ED3B38',
       },

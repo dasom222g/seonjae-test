@@ -1,6 +1,11 @@
 import React, { FC } from 'react'
+import { MBTIAnswerType } from '../lib/type'
 
-const SelectAnswer: FC = () => {
+interface AnswerProps {
+  data: MBTIAnswerType
+}
+
+const Answer: FC<AnswerProps> = ({ data }) => {
   return (
     <div>
       <div className="py-2">
@@ -17,4 +22,4 @@ const SelectAnswer: FC = () => {
   )
 }
 
-export default SelectAnswer
+export default Answer

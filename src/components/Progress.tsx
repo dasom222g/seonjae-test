@@ -1,12 +1,12 @@
 import React, { FC } from 'react'
 
 interface ProgressInterface {
-  total: number
+  totalStep: number
   currentStep: number
 }
 
-const Progress: FC<ProgressInterface> = ({ total, currentStep }) => {
-  const width = (currentStep / total) * 100
+const Progress: FC<ProgressInterface> = ({ totalStep, currentStep }) => {
+  const width = (currentStep / totalStep) * 100
   const statusCoordinate = {
     width: `${width}%`,
   }

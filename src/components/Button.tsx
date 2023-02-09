@@ -1,22 +1,22 @@
 import React, { FC } from 'react'
-import { ButtonType } from '../lib/type'
+import { style } from '../data/style'
+import { ButtonType, ResultButtonType } from '../lib/type'
 
 interface ButtonProps {
-  text: string
-  type: ButtonType
-  handleClick: (type: ButtonType) => void
+  data: ResultButtonType
+  handleClick: (type: ButtonType, data: ResultButtonType) => void
 }
-const Button: FC<ButtonProps> = ({ text, type, handleClick }) => {
+const Button: FC<ButtonProps> = ({ data, handleClick }) => {
   const buttonClick = (): void => {
-    handleClick(type)
+    handleClick(data.type, data)
   }
   return (
-    <div className="py-2">
+    <div className={style.roundInterval}>
       <button
         type="button"
-        className="block w-full text-white rounded-lg bg-mbti-deep-purple p-4"
+        className={`${style.roundBox} bg-mbti-deep-purple text-white`}
         onClick={buttonClick}>
-        {text}
+        {data.text}
       </button>
     </div>
   )

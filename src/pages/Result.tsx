@@ -1,14 +1,18 @@
 import React, { FC } from 'react'
+import { useNavigate } from 'react-router-dom'
 import Button from '../components/Button'
 import ResultMessage from '../components/ResultMessage'
 import { mbtiResult, resultButtonList } from '../data/response'
-import { ButtonType } from '../lib/type'
+import { ButtonType, ResultButtonType } from '../lib/type'
 
 const Result: FC = () => {
+  const navigate = useNavigate()
+
   const resultMbti = 'entj'
 
-  const handleClick = (type: ButtonType): void => {
-    console.log('click', type)
+  const handleClick = (type: ButtonType, data: ResultButtonType): void => {
+    // console.log('click', type)
+    type === 'link' && data.link && navigate(data.link)
   }
   return (
     <section className="py-4">
@@ -29,12 +33,7 @@ const Result: FC = () => {
       </div>
       <div className="py-4">
         {resultButtonList.map((resultButton) => (
-          <Button
-            key={resultButton.id}
-            text={resultButton.text}
-            type={resultButton.type}
-            handleClick={handleClick}
-          />
+          <Button key={resultButton.id} data={resultButton} handleClick={handleClick} />
         ))}
       </div>
     </section>

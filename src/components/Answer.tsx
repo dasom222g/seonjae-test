@@ -1,4 +1,5 @@
 import React, { FC } from 'react'
+import { style } from '../data/style'
 import { MBTIAnswerType } from '../lib/type'
 
 interface AnswerProps {
@@ -10,8 +11,8 @@ const Answer: FC<AnswerProps> = ({ data }) => {
   return (
     <div>
       {answerList.map((answer) => (
-        <div key={answer.code} className="py-2">
-          <button type="button" className="block text-center w-full bg-white p-4 rounded-2xl">
+        <div key={answer.code} className={style.roundInterval}>
+          <button type="button" className={`${style.roundBox} rounded-xl`}>
             {answer.text}
           </button>
         </div>

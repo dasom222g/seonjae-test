@@ -63,7 +63,7 @@ export interface ResultType {
   messageList: resultMessageType[]
 }
 
-export interface resultButtonType {
+export interface ResultButtonType {
   id: number
   type: ButtonType,
   text: string,

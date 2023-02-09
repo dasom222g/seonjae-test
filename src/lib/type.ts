@@ -51,6 +51,11 @@ export interface MBTIQuestionType {
   questionText: string
 }
 
+export interface QuestionStepType {
+  total: number
+  current: number
+}
+
 // type PartialRecord<K extends string | number, T> = { [P in K]?: T }
 
 interface resultMessageType {

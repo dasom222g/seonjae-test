@@ -14,7 +14,7 @@ const Button: FC<ButtonProps> = ({ data, handleClick }) => {
     <div className={style.roundInterval}>
       <button
         type="button"
-        className={`${style.roundBox} bg-mbti-deep-purple text-white`}
+        className={`${style.roundBox} text-white bg-mbti-deep-blue`}
         onClick={buttonClick}>
         {data.text}
       </button>

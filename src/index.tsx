@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 // import './index.css'
 import App from './App'
 // style
-import 'tailwindcss/tailwind.css'
+// import 'tailwindcss/tailwind.css'
 import './index.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)

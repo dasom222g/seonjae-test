@@ -56,7 +56,15 @@ export interface QuestionStepType {
   current: number
 }
 
-// type PartialRecord<K extends string | number, T> = { [P in K]?: T }
+type PartialRecord<K extends string | number, T> = { [P in K]?: T }
+
+export interface MBTIResultType {
+  qustionType: IndicatorType
+  qustionCode: number
+  firstType: CategoryType
+  lastType: CategoryType
+  resultValue: PartialRecord<CategoryType, number>
+}
 
 interface resultMessageType {
   id: number,

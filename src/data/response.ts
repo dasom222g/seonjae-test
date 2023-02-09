@@ -1,4 +1,4 @@
-import { MBTIAnswerType, MBTIQuestionType, resultButtonType, ResultType } from '../lib/type'
+import { MBTIAnswerType, MBTIQuestionType, ResultButtonType, ResultType } from '../lib/type'
 
 export const mbtiQuestion: MBTIQuestionType[] = [
   {
@@ -363,7 +363,7 @@ export const mbtiResult: ResultType[] = [
   }
 ]
 
-export const resultButtonList:resultButtonType[] = [
+export const resultButtonList:ResultButtonType[] = [
   {
     id: 1,
     type: 'link',
@@ -371,7 +371,7 @@ export const resultButtonList:resultButtonType[] = [
     text: '다시 테스트하러 가기'
   },
   {
-    id: 1,
+    id: 2,
     type: 'function',
     text: '테스트 공유하기'
   },

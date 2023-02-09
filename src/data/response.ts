@@ -19,7 +19,7 @@ export const mbtiQuestion: MBTIQuestionType[] = [
     questionCode: 3,
     firstType: 'T',
     lastType: 'F',
-    questionText: '나에게 단 하나 주어진다면?',
+    questionText: '성공한 후 친구들에게 듣고싶은 말은?',
   },
   {
     id: 3,
@@ -39,7 +39,7 @@ export const mbtiQuestion: MBTIQuestionType[] = [
     questionCode: 2,
     firstType: 'N',
     lastType: 'S',
-    questionText: '당신이 지금 즐기고 있는 파티의 분위기는?',
+    questionText: '한번도 해보지않은 일을 요청 받는다면?',
   },
   {
     id: 5,
@@ -49,7 +49,7 @@ export const mbtiQuestion: MBTIQuestionType[] = [
     questionCode: 1,
     firstType: 'E',
     lastType: 'I',
-    questionText: '나에게 더 자주 일어나는 일은?',
+    questionText: '생각도 못한 휴가를 받으면',
   },
   {
     id: 6,
@@ -59,7 +59,7 @@ export const mbtiQuestion: MBTIQuestionType[] = [
     questionCode: 3,
     firstType: 'T',
     lastType: 'F',
-    questionText: '나만의 갈등과 분쟁 해결 방법은?',
+    questionText: '지금 당신에게 필요한 말은?',
   },
   {
     id: 7,
@@ -69,7 +69,7 @@ export const mbtiQuestion: MBTIQuestionType[] = [
     questionCode: 4,
     firstType: 'P',
     lastType: 'J',
-    questionText: '생전 처음 해 보는 새로운 메뉴를 요리할 때 나의 모습은?',
+    questionText: '나만의 모닝루틴이',
   },
   {
     id: 8,
@@ -79,7 +79,7 @@ export const mbtiQuestion: MBTIQuestionType[] = [
     questionCode: 2,
     firstType: 'N',
     lastType: 'S',
-    questionText: '누군가가 자신이 생각해 낸 아이디어라며 이를 소개할 때, 나는',
+    questionText: '내 플레이리스트는',
   },
   {
     id: 9,
@@ -89,7 +89,7 @@ export const mbtiQuestion: MBTIQuestionType[] = [
     questionCode: 3,
     firstType: 'T',
     lastType: 'F',
-    questionText: '나는 둘 중 이렇게 생각한다.',
+    questionText: '마음이 힘든 날',
   },
   {
     id: 10,
@@ -99,7 +99,7 @@ export const mbtiQuestion: MBTIQuestionType[] = [
     questionCode: 4,
     firstType: 'P',
     lastType: 'J',
-    questionText: '새로운 사람들을 만났을 때,',
+    questionText: '시험기간에 나는',
   },
   {
     id: 11,
@@ -109,7 +109,7 @@ export const mbtiQuestion: MBTIQuestionType[] = [
     questionCode: 2,
     firstType: 'N',
     lastType: 'S',
-    questionText: '나는 상대방과 대화할 때,',
+    questionText: '새로나온 넷플릭스를 보면',
   },
   {
     id: 12,
@@ -119,7 +119,7 @@ export const mbtiQuestion: MBTIQuestionType[] = [
     questionCode: 1,
     firstType: 'E',
     lastType: 'I',
-    questionText: '월요일 아침부터 회의가 잡혔다.ㅠㅠ 호의 할 때, 당신의 모습은?',
+    questionText: '배우고 싶은 취미가 생기면',
   },
 ]
 
@@ -151,12 +151,12 @@ export const mbtiAnswer: MBTIAnswerType[] = [
       {
         code: 0,
         type: 'F',
-        text: '세익스피어',
+        text: '그렇게 열심히 하더니 결국 해냈구나ㅠㅠ 고생했어!',
       },
       {
         code: 1,
         type: 'T',
-        text: '아인슈타인',
+        text: '별로 열심히 안한것 같은데 너 재능 있나봐!',
       },
     ],
   },
@@ -187,12 +187,12 @@ export const mbtiAnswer: MBTIAnswerType[] = [
       {
         code: 0,
         type: 'N',
-        text: '지적으로 나를 자극하는 대화가 오가는 중',
+        text: '오히려 좋아',
       },
       {
         code: 1,
         type: 'S',
-        text: '자유롭고 딱딱하지 않은 분위기',
+        text: '불가능한걸 왜시키는거야?',
       },
     ],
   },
@@ -205,12 +205,12 @@ export const mbtiAnswer: MBTIAnswerType[] = [
       {
         code: 0,
         type: 'I',
-        text: '어떤 사람은 뭘 물어봐 놓고도 내가 잠시 할 말을 생각하는 그새를 못 참고 또다른 걸 묻거나 자기 얘길 시작한다.',
+        text: '오예~ 바로 넷플릭스 고고',
       },
       {
         code: 1,
         type: 'E',
-        text: '뭔가를 물어보면, 바로바로 대답을 안 해서 답답한 사람들이 있다.         ',
+        text: '여행각 재던 숙소 예약갈기기',
       },
     ],
   },
@@ -223,12 +223,12 @@ export const mbtiAnswer: MBTIAnswerType[] = [
       {
         code: 0,
         type: 'T',
-        text: '정당,합리적인 기준 원칙적',
+        text: '니 문제가 뭐라고 생각해?',
       },
       {
         code: 1,
         type: 'F',
-        text: '서로간의 믿음과 이해의 인간적 방법',
+        text: '너 충분히 잘하고 있어!',
       },
     ],
   },
@@ -241,12 +241,12 @@ export const mbtiAnswer: MBTIAnswerType[] = [
       {
         code: 0,
         type: 'J',
-        text: '레시피를 거의 그대로 따라 한다. 제시된 시간과 순서를 가능한 한 정확히 지키려고 한다.',
+        text: '있다',
       },
       {
         code: 1,
         type: 'P',
-        text: '상황에 따라 단계를 뛰어넘기도 하고 순서를 뒤바꾸기도 한다. 요리에 대한 기본적인 상식과 감이 레시피보다 더 중요할 수 있다고 생각한다.         ',
+        text: '없다',
       },
     ],
   },
@@ -259,12 +259,12 @@ export const mbtiAnswer: MBTIAnswerType[] = [
       {
         code: 0,
         type: 'N',
-        text: '독창적이고 기발한 아이디어인지를 가장 먼저 본다. 평소 나의 생각을 한 단계 발전시키는 데 도움이 될 만한 얘기라면 더 흥미롭다.',
+        text: '가사가 중요',
       },
       {
         code: 1,
         type: 'S',
-        text: '아이디어의 실현 가능성을 가장 먼저 본다. 그렇지 않은 아이디어를 들으면 "여기가 미국인 줄 아냐?"고 되묻고 싶어진다.',
+        text: '멜로디가 중요',
       },
     ],
   },
@@ -277,12 +277,12 @@ export const mbtiAnswer: MBTIAnswerType[] = [
       {
         code: 0,
         type: 'T',
-        text: '감정은 비이성적이고 시비를 가릴 수 없어서, 진실 또는 진리를 왜곡하곤 한다. 일을 그르치는 건 감정이 앞서는 사람들 때문인 경우가 많다.',
+        text: '뭐 때문에 힘든거지? 분석하고 해결하기',
       },
       {
         code: 1,
         type: 'F',
-        text: '논리적인 분석, 이성적인 사리 판단도 물론 중요하지만, 때와 장소를 불문하고 논리만 내세우는 사람들을 보면 안타깝고 답답하다.',
+        text: '슬픈노래 틀어 놓고 맘껏울기',
       },
     ],
   },
@@ -295,12 +295,12 @@ export const mbtiAnswer: MBTIAnswerType[] = [
       {
         code: 0,
         type: 'P',
-        text: '사람들에 대한 사전 정보없이, 일상적인 이야기로 대화를 시작하는 편이 더 자연스럽다. 대화 도중 화젯거리는 계속해서 생겨난다.',
+        text: '무조건 벼락치기',
       },
       {
         code: 1,
         type: 'J',
-        text: '대화에 앞서 사람들에 대한 정보가 주어지거나 사람들의 입장을 미리 파악하고 있으면, 더 생산적인 대화가 될 것이다.',
+        text: '오늘은 32p까지 하면 되겠다',
       },
     ],
   },
@@ -313,12 +313,12 @@ export const mbtiAnswer: MBTIAnswerType[] = [
       {
         code: 0,
         type: 'S',
-        text: '사람들의 표정, 눈빛, 말투, 억양 등을 보고 들으면서 그 사람이 말하고자 하는 바를 알아챌 수 있다.',
+        text: '오~ 꿀잼인데',
       },
       {
         code: 1,
         type: 'N',
-        text: '그가 사용한 단어의 숨은 의미가 뭔지, 그가 제시한 유일한 사례가 결론적으로 무엇을 상징하는지 짐작할 수 있다.',
+        text: '문제가 심각하네. 어떻게 해결할수 있을까?',
       },
     ],
   },
@@ -331,12 +331,12 @@ export const mbtiAnswer: MBTIAnswerType[] = [
       {
         code: 0,
         type: 'I',
-        text: '내가 어떤 내용을 설명하거나 설득해야 하는지, 사전에 파악하고 준비할 시간이 필요하다.',
+        text: '클래스101 물색',
       },
       {
         code: 1,
         type: 'E',
-        text: '나는 말하면서 동시에 생각할 수 있다. 사실 무언가에 대해 이야기하는 와중에 더 좋은 생각이 번뜩이기도 한다.',
+        text: '동호회 물색',
       },
     ],
   },

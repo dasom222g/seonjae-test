@@ -8,7 +8,7 @@ import { ButtonType, ResultButtonType } from '../lib/type'
 const Result: FC = () => {
   const navigate = useNavigate()
 
-  const resultMbti = 'entj'
+  const resultMbti = 'ENTJ'
 
   const handleClick = (type: ButtonType, data: ResultButtonType): void => {
     // console.log('click', type)
@@ -21,7 +21,7 @@ const Result: FC = () => {
           <span className="block text-center text-lg py-6 -mt-4">나의 갓생 유형은</span>
           <div className="px-4">
             <img
-              src={`./images/result_${resultMbti}.jpeg`}
+              src={`./images/result-${resultMbti}.jpeg`}
               className="rounded-lg"
               alt="결과 이미지"
             />

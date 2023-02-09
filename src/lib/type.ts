@@ -60,6 +60,7 @@ interface resultMessageType {
 export interface ResultType {
   id: number
   type: string //'ENTJ..'
+  imageSrc: string
   messageList: resultMessageType[]
 }
 

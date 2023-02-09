@@ -346,6 +346,7 @@ export const mbtiResult: ResultType[] = [
   {
     id: 1,
     type: 'ENTJ',
+    imageSrc: './images/result-ENTJ.jpeg',
     messageList: [
       {
         id: 1,
@@ -360,7 +361,292 @@ export const mbtiResult: ResultType[] = [
         text: '물론 본인이 느끼기에 게으름 피우는 날도 많아요. 근데 다른 사람들 눈에는? 그게 게으름으로 안 보일 뿐'
       },
     ]
-  }
+  },
+  {
+    id: 2,
+    type: 'ENTP',
+    imageSrc: './images/result-ENTP.jpeg',
+    messageList: [
+      {
+        id: 1,
+        text: '꿈을 위해선 물불안가리고 달려는 타입'
+      },
+      {
+        id: 2,
+        text: '단 1분도 허투로 쓰고 싶지 않은 프로효율러'
+      },
+      {
+        id: 3,
+        text: '물론 본인이 느끼기에 게으름 피우는 날도 많아요. 근데 다른 사람들 눈에는? 그게 게으름으로 안 보일 뿐'
+      },
+    ]
+  },
+  {
+    id: 3,
+    type: 'ENFJ',
+    imageSrc: './images/result-ENFJ.jpeg',
+    messageList: [
+      {
+        id: 1,
+        text: '꿈을 위해선 물불안가리고 달려는 타입'
+      },
+      {
+        id: 2,
+        text: '단 1분도 허투로 쓰고 싶지 않은 프로효율러'
+      },
+      {
+        id: 3,
+        text: '물론 본인이 느끼기에 게으름 피우는 날도 많아요. 근데 다른 사람들 눈에는? 그게 게으름으로 안 보일 뿐'
+      },
+    ]
+  },
+  {
+    id: 4,
+    type: 'ENFP',
+    imageSrc: './images/result-ENFP.jpeg',
+    messageList: [
+      {
+        id: 1,
+        text: '꿈을 위해선 물불안가리고 달려는 타입'
+      },
+      {
+        id: 2,
+        text: '단 1분도 허투로 쓰고 싶지 않은 프로효율러'
+      },
+      {
+        id: 3,
+        text: '물론 본인이 느끼기에 게으름 피우는 날도 많아요. 근데 다른 사람들 눈에는? 그게 게으름으로 안 보일 뿐'
+      },
+    ]
+  },
+  {
+    id: 5,
+    type: 'ESTJ',
+    imageSrc: './images/result-ESTJ.jpeg',
+    messageList: [
+      {
+        id: 1,
+        text: '꿈을 위해선 물불안가리고 달려는 타입'
+      },
+      {
+        id: 2,
+        text: '단 1분도 허투로 쓰고 싶지 않은 프로효율러'
+      },
+      {
+        id: 3,
+        text: '물론 본인이 느끼기에 게으름 피우는 날도 많아요. 근데 다른 사람들 눈에는? 그게 게으름으로 안 보일 뿐'
+      },
+    ]
+  },
+  {
+    id: 6,
+    type: 'ESTP',
+    imageSrc: './images/result-ESTP.jpeg',
+    messageList: [
+      {
+        id: 1,
+        text: '꿈을 위해선 물불안가리고 달려는 타입'
+      },
+      {
+        id: 2,
+        text: '단 1분도 허투로 쓰고 싶지 않은 프로효율러'
+      },
+      {
+        id: 3,
+        text: '물론 본인이 느끼기에 게으름 피우는 날도 많아요. 근데 다른 사람들 눈에는? 그게 게으름으로 안 보일 뿐'
+      },
+    ]
+  },
+  {
+    id: 7,
+    type: 'ESFJ',
+    imageSrc: './images/result-ESFJ.jpeg',
+    messageList: [
+      {
+        id: 1,
+        text: '꿈을 위해선 물불안가리고 달려는 타입'
+      },
+      {
+        id: 2,
+        text: '단 1분도 허투로 쓰고 싶지 않은 프로효율러'
+      },
+      {
+        id: 3,
+        text: '물론 본인이 느끼기에 게으름 피우는 날도 많아요. 근데 다른 사람들 눈에는? 그게 게으름으로 안 보일 뿐'
+      },
+    ]
+  },
+  {
+    id: 8,
+    type: 'ESFP',
+    imageSrc: './images/result-ESFP.jpeg',
+    messageList: [
+      {
+        id: 1,
+        text: '꿈을 위해선 물불안가리고 달려는 타입'
+      },
+      {
+        id: 2,
+        text: '단 1분도 허투로 쓰고 싶지 않은 프로효율러'
+      },
+      {
+        id: 3,
+        text: '물론 본인이 느끼기에 게으름 피우는 날도 많아요. 근데 다른 사람들 눈에는? 그게 게으름으로 안 보일 뿐'
+      },
+    ]
+  },
+  {
+    id: 9,
+    type: 'INTJ',
+    imageSrc: './images/result-INTJ.jpeg',
+    messageList: [
+      {
+        id: 1,
+        text: '꿈을 위해선 물불안가리고 달려는 타입'
+      },
+      {
+        id: 2,
+        text: '단 1분도 허투로 쓰고 싶지 않은 프로효율러'
+      },
+      {
+        id: 3,
+        text: '물론 본인이 느끼기에 게으름 피우는 날도 많아요. 근데 다른 사람들 눈에는? 그게 게으름으로 안 보일 뿐'
+      },
+    ]
+  },
+  {
+    id: 10,
+    type: 'INTP',
+    imageSrc: './images/result-INTP.jpeg',
+    messageList: [
+      {
+        id: 1,
+        text: '꿈을 위해선 물불안가리고 달려는 타입'
+      },
+      {
+        id: 2,
+        text: '단 1분도 허투로 쓰고 싶지 않은 프로효율러'
+      },
+      {
+        id: 3,
+        text: '물론 본인이 느끼기에 게으름 피우는 날도 많아요. 근데 다른 사람들 눈에는? 그게 게으름으로 안 보일 뿐'
+      },
+    ]
+  },
+  {
+    id: 11,
+    type: 'INFJ',
+    imageSrc: './images/result-INFJ.jpeg',
+    messageList: [
+      {
+        id: 1,
+        text: '꿈을 위해선 물불안가리고 달려는 타입'
+      },
+      {
+        id: 2,
+        text: '단 1분도 허투로 쓰고 싶지 않은 프로효율러'
+      },
+      {
+        id: 3,
+        text: '물론 본인이 느끼기에 게으름 피우는 날도 많아요. 근데 다른 사람들 눈에는? 그게 게으름으로 안 보일 뿐'
+      },
+    ]
+  },
+  {
+    id: 12,
+    type: 'INFP',
+    imageSrc: './images/result-INFP.jpeg',
+    messageList: [
+      {
+        id: 1,
+        text: '꿈을 위해선 물불안가리고 달려는 타입'
+      },
+      {
+        id: 2,
+        text: '단 1분도 허투로 쓰고 싶지 않은 프로효율러'
+      },
+      {
+        id: 3,
+        text: '물론 본인이 느끼기에 게으름 피우는 날도 많아요. 근데 다른 사람들 눈에는? 그게 게으름으로 안 보일 뿐'
+      },
+    ]
+  },
+  {
+    id: 13,
+    type: 'ISTJ',
+    imageSrc: './images/result-ISTJ.jpeg',
+    messageList: [
+      {
+        id: 1,
+        text: '꿈을 위해선 물불안가리고 달려는 타입'
+      },
+      {
+        id: 2,
+        text: '단 1분도 허투로 쓰고 싶지 않은 프로효율러'
+      },
+      {
+        id: 3,
+        text: '물론 본인이 느끼기에 게으름 피우는 날도 많아요. 근데 다른 사람들 눈에는? 그게 게으름으로 안 보일 뿐'
+      },
+    ]
+  },
+  {
+    id: 14,
+    type: 'ISTP',
+    imageSrc: './images/result-ISTP.jpeg',
+    messageList: [
+      {
+        id: 1,
+        text: '꿈을 위해선 물불안가리고 달려는 타입'
+      },
+      {
+        id: 2,
+        text: '단 1분도 허투로 쓰고 싶지 않은 프로효율러'
+      },
+      {
+        id: 3,
+        text: '물론 본인이 느끼기에 게으름 피우는 날도 많아요. 근데 다른 사람들 눈에는? 그게 게으름으로 안 보일 뿐'
+      },
+    ]
+  },
+  {
+    id: 15,
+    type: 'ISFJ',
+    imageSrc: './images/result-ISFJ.jpeg',
+    messageList: [
+      {
+        id: 1,
+        text: '꿈을 위해선 물불안가리고 달려는 타입'
+      },
+      {
+        id: 2,
+        text: '단 1분도 허투로 쓰고 싶지 않은 프로효율러'
+      },
+      {
+        id: 3,
+        text: '물론 본인이 느끼기에 게으름 피우는 날도 많아요. 근데 다른 사람들 눈에는? 그게 게으름으로 안 보일 뿐'
+      },
+    ]
+  },
+  {
+    id: 16,
+    type: 'ISFP',
+    imageSrc: './images/result-ISFP.jpeg',
+    messageList: [
+      {
+        id: 1,
+        text: '꿈을 위해선 물불안가리고 달려는 타입'
+      },
+      {
+        id: 2,
+        text: '단 1분도 허투로 쓰고 싶지 않은 프로효율러'
+      },
+      {
+        id: 3,
+        text: '물론 본인이 느끼기에 게으름 피우는 날도 많아요. 근데 다른 사람들 눈에는? 그게 게으름으로 안 보일 뿐'
+      },
+    ]
+  },
 ]
 
 export const resultButtonList:ResultButtonType[] = [

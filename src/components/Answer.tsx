@@ -1,23 +1,26 @@
 import React, { FC } from 'react'
 import { style } from '../data/style'
-import { MBTIAnswerType } from '../lib/type'
+import { AnswerType, MBTIAnswerType } from '../lib/type'
 
 interface AnswerProps {
   data: MBTIAnswerType
-  handleNextQuestion: (currentStep: number) => void
+  handleSelect: (currentStep: number, selectItem: AnswerType) => void
 }
 
-const Answer: FC<AnswerProps> = ({ data, handleNextQuestion }) => {
+const Answer: FC<AnswerProps> = ({ data, handleSelect }) => {
   const { answerList, questionCode } = data
 
-  const handleClick = (): void => {
-    handleNextQuestion(questionCode)
+  const handleClick = (selectItem: AnswerType): void => {
+    handleSelect(questionCode, selectItem)
   }
   return (
     <div>
       {answerList.map((answer) => (
         <div key={answer.code} className={style.roundInterval}>
-          <button type="button" className={`${style.roundBox} rounded-xl`} onClick={handleClick}>
+          <button
+            type="button"
+            className={`${style.roundBox} rounded-xl bg-white`}
+            onClick={() => handleClick(answer)}>
             {answer.text}
           </button>
         </div>

@@ -1,4 +1,4 @@
-interface AnswerType {
+export interface AnswerType {
   code: number
   type: CategoryType
   text: string
@@ -45,7 +45,7 @@ export interface MBTIQuestionType {
   code: number
   nextCode: number
   questionType: IndicatorType
-  questionCode: number
+  questionTypeCode: number
   firstType: CategoryType
   lastType: CategoryType
   questionText: string
@@ -58,9 +58,9 @@ export interface QuestionStepType {
 
 type PartialRecord<K extends string | number, T> = { [P in K]?: T }
 
-export interface MBTIResultType {
-  qustionType: IndicatorType
-  qustionCode: number
+export interface MBTIValueType {
+  questionType: IndicatorType
+  questionTypeCode: number
   firstType: CategoryType
   lastType: CategoryType
   resultValue: PartialRecord<CategoryType, number>

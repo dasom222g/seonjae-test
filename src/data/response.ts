@@ -19,7 +19,7 @@ export const mbtiQuestion: MBTIQuestionType[] = [
     questionTypeCode: 3,
     firstType: 'T',
     lastType: 'F',
-    questionText: '성공한 후 친구들에게 듣고싶은 말은?',
+    questionText: '중요PT 발표 후 듣고싶은 말은?',
   },
   {
     id: 3,
@@ -151,7 +151,7 @@ export const mbtiAnswer: MBTIAnswerType[] = [
       {
         code: 0,
         type: 'F',
-        text: '그렇게 열심히 하더니 결국 해냈구나ㅠㅠ 고생했어!',
+        text: '열심히 하더니 결국 해냈구나ㅠㅠ 고생했어!',
       },
       {
         code: 1,

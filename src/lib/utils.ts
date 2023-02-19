@@ -1,0 +1,1 @@
+export const BASEURL = 'https://cors-anywhere.herokuapp.com/https://api.notion.com/v1/databases'

@@ -1,6 +1,6 @@
-## mbti-test
+## seonjae-test
 
-Webapp for MBTI test
+선재 업고 궁합 테스트
 
 ---
 
@@ -14,7 +14,7 @@ Now clone this repository to your own device. Click the Clone or download button
 
 Open a terminal and run the following Git command:
 
-    $ git clone https://github.com/dasom222g/mbti-test.git
+    $ git clone https://github.com/dasom222g/seonjae-test.git
 
 Getting start
 

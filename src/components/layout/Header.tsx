@@ -3,12 +3,13 @@ import { Link } from 'react-router-dom'
 
 const Header: FC = () => {
   return (
-    <Link to="/" className="block py-6 w-4/6 mx-auto">
-      <h1>
-        <span className="absolute text-no w-1 left-0 top-0">가보자GO</span>
-        <img src="./images/logo.png" alt="로고이미지" />
-      </h1>
-    </Link>
+    <header className='bg-mbti-deep-purple -m-4 mb-0 p-4'>
+      <Link to="/" className="block">
+        <h1 className='text-white'>
+          <span className='text-mbti-mint'>Zero</span>ToOne
+        </h1>
+      </Link>
+    </header>
   )
 }
 

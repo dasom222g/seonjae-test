@@ -7,11 +7,11 @@ interface LayoutProps {
 
 const Layout: FC<LayoutProps> = ({ children }) => {
   const bgStyle = {
-    backgroundImage: 'url(/images/grid_bg.svg)',
+    backgroundImage: 'url(/images/bg.png)',
   }
   return (
     <div
-      className="bg-mbti-light-mint bg-repeat min-h-screen h-full p-4 overflow-auto"
+      className="bg-mbti-yellow bg-repeat min-h-screen h-full p-4 overflow-auto"
       style={bgStyle}>
       <div className="h-full flex flex-col">
         <Header />

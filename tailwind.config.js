@@ -13,7 +13,7 @@ module.exports = {
         'mbti-deep-purple': '#5d62fa',
         'mbti-mint': '#8CFFEE',
         'mbti-pink': '#FF9CAA',
-        'mbti-light-pink': '##FFE5E6',
+        'mbti-light-pink': '#FFE5E6',
 
         'mbti-light-mint': '#6EFFEE',
         'mbti-deeplight-mint': '#C3FCF1',

@@ -9,8 +9,8 @@ const Question: FC<QuestionProps> = ({ data }) => {
   const { code, questionText } = data
   return (
     <div className="text-center">
-      <h3 className="text-5xl font-beeunhye">Qusetion {code}</h3>
-      <span className="block pt-12 text-3xl font-kyobohandwriting2021sjy">{questionText}</span>
+      <h3 className="text-4xl font-cafe24surround">Qusetion {code}</h3>
+      <span className="block pt-10 text-2xl font-cafe24surround">{questionText} {`${data.questionType}/${data.firstType} / ${data.lastType}`}</span>
     </div>
   )
 }

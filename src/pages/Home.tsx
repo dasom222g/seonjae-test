@@ -25,7 +25,7 @@ const Home: FC = () => {
           {/* END: icon */}
           {/* top */}
           <div className='flex bg-mbti-purple border-2 border-black px-4 py-3 gap-3'>
-            {appleButtonList.map((button, index) => <span key={index} className={`block text-no w-5 h-5 bg-mbti-${button.color} ${button.borderSize === 1 ? 'border' : `border-${button.borderSize}`} border-black rounded-full`}>버튼 이미지</span>)}
+            {appleButtonList.map((button, index) => <span key={index} className={`block text-no w-5 h-5 ${button.color} ${button.borderSize === 1 ? 'border' : `border-${button.borderSize}`} border-black rounded-full`}>버튼 이미지</span>)}
           </div>
           {/* 이미지 */}
           <div className='w-full relative bg-mbti-deep-yellow overflow-hidden border-2 border-black border-t-0' style={{ paddingBottom: 'calc(100% - 32px)' }}>
@@ -38,8 +38,9 @@ const Home: FC = () => {
       <Link
         to="/test"
         type="button"
-        className="block my-0 mx-auto text-center w-40 bg-mbti-blue p-3 rounded-4xl text-lg text-white font-cafe24surround">
+        className="block relative my-0 mx-auto text-center w-40 bg-mbti-blue p-3 rounded-4xl text-lg text-white font-cafe24surround">
         시작하기
+        <i className="block absolute bg-[url('../public/images/icon/main-icon-cursor.png')] w-9 h-9 bg-cover right-0 -bottom-2" />
       </Link>
     </section >
   )

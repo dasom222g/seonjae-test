@@ -16,7 +16,7 @@ module.exports = {
         'mbti-deep-mint': '#d0e9cc',
         'mbti-pink': '#FF9CAA',
         'mbti-light-pink': '#FFE5E6',
-        'mbti-red': '#fd4b7d',
+        'mbti-red': '#fa517c',
 
         'mbti-light-mint': '#6EFFEE',
         'mbti-deeplight-mint': '#C3FCF1',
@@ -33,10 +33,12 @@ module.exports = {
         humanbumsuk: ['Humanbumsuk', 'sans-serif'],
         kyobohandwriting2021sjy: ['KyoboHandwriting2021sjy', 'sans-serif'],
         cafe24shiningstar: ['Cafe24Shiningstar', 'sans-serif'],
-        cafe24surround: ['Cafe24Ssurround', 'sans-serif'],
         middleschool_student: ['Middleschool_student', 'sans-serif'],
         beeunhye: ['Beeunhye', 'sans-serif'],
         bisang: ['Bisang', 'sans-serif'],
+        cafe24surround: ['Cafe24Ssurround', 'sans-serif'],
+        eland: ['ELAND_Nice_M', 'sans-serif'],
+        pretendard: ['Pretendard-Regular', 'sans-serif'],
       },
       padding: {
         full: '100%',

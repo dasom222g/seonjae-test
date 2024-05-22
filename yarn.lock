@@ -1186,6 +1186,11 @@
   resolved "https://registry.yarnpkg.com/@csstools/selector-specificity/-/selector-specificity-2.1.1.tgz#c9c61d9fe5ca5ac664e1153bb0aa0eba1c6d6308"
   integrity sha512-jwx+WCqszn53YHOfvFMJJRd/B2GqkCBt+1MJSG6o5/s8+ytHMvDZXsJgUEWLk12UnLd7HYKac4BYU5i/Ron1Cw==
 
+"@designbycode/tailwindcss-text-stroke@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@designbycode/tailwindcss-text-stroke/-/tailwindcss-text-stroke-1.2.1.tgz#53180ad7dfefe506a9d506e8b4c1c29356f8367f"
+  integrity sha512-6SqiFuMjJaWWv5Mm+RIu8Ui3Kc/8AK3m0qSocPOFhk4yS6aMVioy8QLghAj5KOR/8lsfZe3r7I1uJ7YM1FimUA==
+
 "@eslint/eslintrc@^1.4.1":
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/@eslint/eslintrc/-/eslintrc-1.4.1.tgz#af58772019a2d271b7e2d4c23ff4ddcba3ccfb3e"

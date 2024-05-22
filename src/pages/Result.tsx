@@ -20,6 +20,7 @@ const Result: FC = () => {
   }
 
   useEffect(() => {
+    console.log('mbtiValue', mbtiValue)
     const sortedValue = [...mbtiValue].sort((a, b) => a.questionTypeCode - b.questionTypeCode)
     const resultValue = sortedValue
       .map((value) => {

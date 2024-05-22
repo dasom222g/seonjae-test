@@ -1,8 +1,21 @@
 import React, { FC } from 'react'
-import { Link } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import { appleButtonList } from '../lib/utils'
+import { useSetRecoilState } from 'recoil'
+import { mbtiValueState } from '../state/dataState'
 
 const Home: FC = () => {
+  // logic
+  const navigate = useNavigate()
+
+  const setMbtiValue = useSetRecoilState(mbtiValueState)
+
+  const handleStart = (): void => {
+    setMbtiValue([])
+    navigate('/test')
+  }
+
+  // view
 
   return (
     <section className='pt-10 pb-8'>
@@ -35,13 +48,14 @@ const Home: FC = () => {
       </div>
       {/* END: 선재 메인 이미지 */}
       {/* START: 시작 버튼 */}
-      <Link
-        to="/test"
+      <button
         type="button"
-        className="block relative my-0 mx-auto text-center w-40 bg-mbti-blue p-3 rounded-4xl text-lg text-white font-cafe24surround">
+        className="block relative my-0 mx-auto text-center w-40 bg-mbti-blue p-3 rounded-4xl text-lg text-white font-cafe24surround"
+        onClick={handleStart}
+      >
         시작하기
         <i className="block absolute bg-[url('../public/images/icon/main-icon-cursor.png')] w-9 h-9 bg-cover right-0 -bottom-2" />
-      </Link>
+      </button>
     </section >
   )
 }

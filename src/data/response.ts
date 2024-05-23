@@ -1,5 +1,7 @@
 import { MBTIAnswerType, MBTIQuestionType, ResultButtonType, ResultType } from '../lib/type'
 
+import { IoMdRefresh, IoMdShareAlt } from 'react-icons/io'
+
 export const mbtiQuestion: MBTIQuestionType[] = [
   {
     id: 1,
@@ -347,319 +349,531 @@ export const mbtiResultList: ResultType[] = [
   {
     id: 1,
     type: 'ENTJ',
-    imageSrc: './images/result-ENTJ.jpeg',
-    messageList: [
+    score: 85,
+    text: '서로를 만나기 위해 이 땅에 태어났다 해도 결코 어색하지 않은 두 분이에요. 하나부터 열까지 찰떡 궁합을 자랑하는 두 분! 절대 거부할 수 없는 최고의 짝꿍이랍니다. 온 우주가 두 분의 미래를 응원할거예요.',
+    loveIndexList: [
       {
         id: 1,
-        text: '꿈을 위해선 물불안가리고 달려는 타입'
+        type: 'affection',
+        score: 90,
+        text: '애정표현력'
       },
       {
         id: 2,
-        text: '단 1분도 허투로 쓰고 싶지 않은 프로효율러'
+        type: 'sense',
+        score: 75,
+        text: '눈치력'
       },
       {
         id: 3,
-        text: '물론 본인이 느끼기에 게으름 피우는 날도 많아요. 근데 다른 사람들 눈에는? 그게 게으름으로 안 보일 뿐'
+        type: 'driving',
+        score: 80,
+        text: '썸 추진력'
       },
+      {
+        id: 4,
+        type: 'sexy',
+        score: 70,
+        text: '19금력'
+      }
     ]
   },
   {
     id: 2,
-    type: 'ENTP',
-    imageSrc: './images/result-ENTP.jpeg',
-    messageList: [
+    type: 'ENFP',
+    score: 83,
+    text: '열정적이고 창의적인 두 분! 서로의 아이디어와 에너지를 끊임없이 나누며 최고의 팀워크를 자랑합니다. 항상 서로에게 긍정적인 영향을 미치는 커플이에요.',
+    loveIndexList: [
       {
         id: 1,
-        text: '꿈을 위해선 물불안가리고 달려는 타입'
+        type: 'affection',
+        score: 85,
+        text: '애정표현력'
       },
       {
         id: 2,
-        text: '단 1분도 허투로 쓰고 싶지 않은 프로효율러'
+        type: 'sense',
+        score: 70,
+        text: '눈치력'
       },
       {
         id: 3,
-        text: '물론 본인이 느끼기에 게으름 피우는 날도 많아요. 근데 다른 사람들 눈에는? 그게 게으름으로 안 보일 뿐'
+        type: 'driving',
+        score: 90,
+        text: '썸 추진력'
       },
+      {
+        id: 4,
+        type: 'sexy',
+        score: 75,
+        text: '19금력'
+      }
     ]
   },
   {
     id: 3,
-    type: 'ENFJ',
-    imageSrc: './images/result-ENFJ.jpeg',
-    messageList: [
+    type: 'INFJ',
+    score: 88,
+    text: '깊은 이해와 배려를 바탕으로 한 관계. 서로의 마음을 깊이 이해하며 진정한 소울메이트가 되어 줍니다. 언제나 서로를 지지하고 응원하는 두 분이에요.',
+    loveIndexList: [
       {
         id: 1,
-        text: '꿈을 위해선 물불안가리고 달려는 타입'
+        type: 'affection',
+        score: 92,
+        text: '애정표현력'
       },
       {
         id: 2,
-        text: '단 1분도 허투로 쓰고 싶지 않은 프로효율러'
+        type: 'sense',
+        score: 85,
+        text: '눈치력'
       },
       {
         id: 3,
-        text: '물론 본인이 느끼기에 게으름 피우는 날도 많아요. 근데 다른 사람들 눈에는? 그게 게으름으로 안 보일 뿐'
+        type: 'driving',
+        score: 70,
+        text: '썸 추진력'
       },
+      {
+        id: 4,
+        type: 'sexy',
+        score: 65,
+        text: '19금력'
+      }
     ]
   },
   {
     id: 4,
-    type: 'ENFP',
-    imageSrc: './images/result-ENFP.jpeg',
-    messageList: [
+    type: 'INTJ',
+    score: 80,
+    text: '지적이고 전략적인 두 분. 서로의 목표를 이해하고 지원하며 함께 성장해 나가는 커플이에요. 항상 논리적이고 현실적인 접근을 통해 문제를 해결해 나갑니다.',
+    loveIndexList: [
       {
         id: 1,
-        text: '꿈을 위해선 물불안가리고 달려는 타입'
+        type: 'affection',
+        score: 70,
+        text: '애정표현력'
       },
       {
         id: 2,
-        text: '단 1분도 허투로 쓰고 싶지 않은 프로효율러'
+        type: 'sense',
+        score: 80,
+        text: '눈치력'
       },
       {
         id: 3,
-        text: '물론 본인이 느끼기에 게으름 피우는 날도 많아요. 근데 다른 사람들 눈에는? 그게 게으름으로 안 보일 뿐'
+        type: 'driving',
+        score: 85,
+        text: '썸 추진력'
       },
+      {
+        id: 4,
+        type: 'sexy',
+        score: 75,
+        text: '19금력'
+      }
     ]
   },
   {
     id: 5,
-    type: 'ESTJ',
-    imageSrc: './images/result-ESTJ.jpeg',
-    messageList: [
+    type: 'ESFJ',
+    score: 90,
+    text: '따뜻하고 사교적인 두 분. 서로의 감정을 잘 이해하고 항상 서로를 배려하며 지내는 커플이에요. 주변 사람들에게도 긍정적인 영향을 미치는 아름다운 관계입니다.',
+    loveIndexList: [
       {
         id: 1,
-        text: '꿈을 위해선 물불안가리고 달려는 타입'
+        type: 'affection',
+        score: 95,
+        text: '애정표현력'
       },
       {
         id: 2,
-        text: '단 1분도 허투로 쓰고 싶지 않은 프로효율러'
+        type: 'sense',
+        score: 85,
+        text: '눈치력'
       },
       {
         id: 3,
-        text: '물론 본인이 느끼기에 게으름 피우는 날도 많아요. 근데 다른 사람들 눈에는? 그게 게으름으로 안 보일 뿐'
+        type: 'driving',
+        score: 80,
+        text: '썸 추진력'
       },
+      {
+        id: 4,
+        type: 'sexy',
+        score: 70,
+        text: '19금력'
+      }
     ]
   },
   {
     id: 6,
-    type: 'ESTP',
-    imageSrc: './images/result-ESTP.jpeg',
-    messageList: [
+    type: 'ESFP',
+    score: 87,
+    text: '활발하고 에너제틱한 두 분. 항상 새로운 모험을 함께하며 인생을 즐기는 커플이에요. 서로의 삶에 활력을 불어넣으며 언제나 즐거운 시간을 보냅니다.',
+    loveIndexList: [
       {
         id: 1,
-        text: '꿈을 위해선 물불안가리고 달려는 타입'
+        type: 'affection',
+        score: 90,
+        text: '애정표현력'
       },
       {
         id: 2,
-        text: '단 1분도 허투로 쓰고 싶지 않은 프로효율러'
+        type: 'sense',
+        score: 75,
+        text: '눈치력'
       },
       {
         id: 3,
-        text: '물론 본인이 느끼기에 게으름 피우는 날도 많아요. 근데 다른 사람들 눈에는? 그게 게으름으로 안 보일 뿐'
+        type: 'driving',
+        score: 90,
+        text: '썸 추진력'
       },
+      {
+        id: 4,
+        type: 'sexy',
+        score: 80,
+        text: '19금력'
+      }
     ]
   },
   {
     id: 7,
-    type: 'ESFJ',
-    imageSrc: './images/result-ESFJ.jpeg',
-    messageList: [
+    type: 'ISFJ',
+    score: 85,
+    text: '신뢰와 안정감을 주는 두 분. 서로의 감정을 깊이 이해하며 헌신적으로 사랑하는 커플이에요. 항상 서로를 지지하며 안정적인 관계를 유지합니다.',
+    loveIndexList: [
       {
         id: 1,
-        text: '꿈을 위해선 물불안가리고 달려는 타입'
+        type: 'affection',
+        score: 85,
+        text: '애정표현력'
       },
       {
         id: 2,
-        text: '단 1분도 허투로 쓰고 싶지 않은 프로효율러'
+        type: 'sense',
+        score: 90,
+        text: '눈치력'
       },
       {
         id: 3,
-        text: '물론 본인이 느끼기에 게으름 피우는 날도 많아요. 근데 다른 사람들 눈에는? 그게 게으름으로 안 보일 뿐'
+        type: 'driving',
+        score: 70,
+        text: '썸 추진력'
       },
+      {
+        id: 4,
+        type: 'sexy',
+        score: 60,
+        text: '19금력'
+      }
     ]
   },
   {
     id: 8,
-    type: 'ESFP',
-    imageSrc: './images/result-ESFP.jpeg',
-    messageList: [
+    type: 'ISFP',
+    score: 82,
+    text: '조용하고 예술적인 두 분. 서로의 창의성과 감성을 존중하며 함께 시간을 보내는 커플이에요. 언제나 서로의 마음을 이해하고 배려하는 관계입니다.',
+    loveIndexList: [
       {
         id: 1,
-        text: '꿈을 위해선 물불안가리고 달려는 타입'
+        type: 'affection',
+        score: 80,
+        text: '애정표현력'
       },
       {
         id: 2,
-        text: '단 1분도 허투로 쓰고 싶지 않은 프로효율러'
+        type: 'sense',
+        score: 85,
+        text: '눈치력'
       },
       {
         id: 3,
-        text: '물론 본인이 느끼기에 게으름 피우는 날도 많아요. 근데 다른 사람들 눈에는? 그게 게으름으로 안 보일 뿐'
+        type: 'driving',
+        score: 75,
+        text: '썸 추진력'
       },
+      {
+        id: 4,
+        type: 'sexy',
+        score: 70,
+        text: '19금력'
+      }
     ]
   },
   {
     id: 9,
-    type: 'INTJ',
-    imageSrc: './images/result-INTJ.jpeg',
-    messageList: [
+    type: 'ENTP',
+    score: 88,
+    text: '지적이고 창의적인 두 분. 서로의 아이디어와 열정을 끊임없이 공유하며 항상 새로운 것을 추구하는 커플이에요. 함께할 때 더 큰 시너지를 발휘합니다.',
+    loveIndexList: [
       {
         id: 1,
-        text: '꿈을 위해선 물불안가리고 달려는 타입'
+        type: 'affection',
+        score: 85,
+        text: '애정표현력'
       },
       {
         id: 2,
-        text: '단 1분도 허투로 쓰고 싶지 않은 프로효율러'
+        type: 'sense',
+        score: 80,
+        text: '눈치력'
       },
       {
         id: 3,
-        text: '물론 본인이 느끼기에 게으름 피우는 날도 많아요. 근데 다른 사람들 눈에는? 그게 게으름으로 안 보일 뿐'
+        type: 'driving',
+        score: 90,
+        text: '썸 추진력'
       },
+      {
+        id: 4,
+        type: 'sexy',
+        score: 75,
+        text: '19금력'
+      }
     ]
   },
   {
     id: 10,
-    type: 'INTP',
-    imageSrc: './images/result-INTP.jpeg',
-    messageList: [
+    type: 'ENFJ',
+    score: 90,
+    text: '사람들을 이끌고 영감을 주는 두 분. 항상 서로에게 긍정적인 영향을 미치며 주변 사람들에게도 좋은 에너지를 전파하는 커플이에요.',
+    loveIndexList: [
       {
         id: 1,
-        text: '꿈을 위해선 물불안가리고 달려는 타입'
+        type: 'affection',
+        score: 95,
+        text: '애정표현력'
       },
       {
         id: 2,
-        text: '단 1분도 허투로 쓰고 싶지 않은 프로효율러'
+        type: 'sense',
+        score: 85,
+        text: '눈치력'
       },
       {
         id: 3,
-        text: '물론 본인이 느끼기에 게으름 피우는 날도 많아요. 근데 다른 사람들 눈에는? 그게 게으름으로 안 보일 뿐'
+        type: 'driving',
+        score: 80,
+        text: '썸 추진력'
       },
+      {
+        id: 4,
+        type: 'sexy',
+        score: 75,
+        text: '19금력'
+      }
     ]
   },
   {
     id: 11,
-    type: 'INFJ',
-    imageSrc: './images/result-INFJ.jpeg',
-    messageList: [
+    type: 'INTP',
+    score: 78,
+    text: '논리적이고 분석적인 두 분. 서로의 지적 호기심을 충족시키며 깊이 있는 대화를 나누는 커플이에요. 언제나 서로에게서 배우며 성장합니다.',
+    loveIndexList: [
       {
         id: 1,
-        text: '꿈을 위해선 물불안가리고 달려는 타입'
+        type: 'affection',
+        score: 70,
+        text: '애정표현력'
       },
       {
         id: 2,
-        text: '단 1분도 허투로 쓰고 싶지 않은 프로효율러'
+        type: 'sense',
+        score: 75,
+        text: '눈치력'
       },
       {
         id: 3,
-        text: '물론 본인이 느끼기에 게으름 피우는 날도 많아요. 근데 다른 사람들 눈에는? 그게 게으름으로 안 보일 뿐'
+        type: 'driving',
+        score: 80,
+        text: '썸 추진력'
       },
+      {
+        id: 4,
+        type: 'sexy',
+        score: 65,
+        text: '19금력'
+      }
     ]
   },
   {
     id: 12,
     type: 'INFP',
-    imageSrc: './images/result-INFP.jpeg',
-    messageList: [
+    score: 85,
+    text: '이상적이고 감성적인 두 분. 서로의 꿈과 감정을 깊이 이해하며 진정한 소울메이트가 되어 줍니다. 언제나 서로를 지지하고 응원하는 커플이에요.',
+    loveIndexList: [
       {
         id: 1,
-        text: '꿈을 위해선 물불안가리고 달려는 타입'
+        type: 'affection',
+        score: 90,
+        text: '애정표현력'
       },
       {
         id: 2,
-        text: '단 1분도 허투로 쓰고 싶지 않은 프로효율러'
+        type: 'sense',
+        score: 80,
+        text: '눈치력'
       },
       {
         id: 3,
-        text: '물론 본인이 느끼기에 게으름 피우는 날도 많아요. 근데 다른 사람들 눈에는? 그게 게으름으로 안 보일 뿐'
+        type: 'driving',
+        score: 85,
+        text: '썸 추진력'
       },
+      {
+        id: 4,
+        type: 'sexy',
+        score: 70,
+        text: '19금력'
+      }
     ]
   },
   {
     id: 13,
-    type: 'ISTJ',
-    imageSrc: './images/result-ISTJ.jpeg',
-    messageList: [
+    type: 'ESTJ',
+    score: 82,
+    text: '실용적이고 효율적인 두 분. 서로의 목표를 명확하게 이해하며 함께 계획을 세워 나가는 커플이에요. 언제나 논리적이고 실용적인 접근을 통해 문제를 해결합니다.',
+    loveIndexList: [
       {
         id: 1,
-        text: '꿈을 위해선 물불안가리고 달려는 타입'
+        type: 'affection',
+        score: 75,
+        text: '애정표현력'
       },
       {
         id: 2,
-        text: '단 1분도 허투로 쓰고 싶지 않은 프로효율러'
+        type: 'sense',
+        score: 85,
+        text: '눈치력'
       },
       {
         id: 3,
-        text: '물론 본인이 느끼기에 게으름 피우는 날도 많아요. 근데 다른 사람들 눈에는? 그게 게으름으로 안 보일 뿐'
+        type: 'driving',
+        score: 80,
+        text: '썸 추진력'
       },
+      {
+        id: 4,
+        type: 'sexy',
+        score: 70,
+        text: '19금력'
+      }
     ]
   },
   {
     id: 14,
-    type: 'ISTP',
-    imageSrc: './images/result-ISTP.jpeg',
-    messageList: [
+    type: 'ESTP',
+    score: 80,
+    text: '활동적이고 모험적인 두 분. 항상 새로운 경험을 추구하며 함께 모험을 떠나는 커플이에요. 언제나 에너지가 넘치고 즐거운 시간을 보냅니다.',
+    loveIndexList: [
       {
         id: 1,
-        text: '꿈을 위해선 물불안가리고 달려는 타입'
+        type: 'affection',
+        score: 80,
+        text: '애정표현력'
       },
       {
         id: 2,
-        text: '단 1분도 허투로 쓰고 싶지 않은 프로효율러'
+        type: 'sense',
+        score: 75,
+        text: '눈치력'
       },
       {
         id: 3,
-        text: '물론 본인이 느끼기에 게으름 피우는 날도 많아요. 근데 다른 사람들 눈에는? 그게 게으름으로 안 보일 뿐'
+        type: 'driving',
+        score: 85,
+        text: '썸 추진력'
       },
+      {
+        id: 4,
+        type: 'sexy',
+        score: 70,
+        text: '19금력'
+      }
     ]
   },
   {
     id: 15,
-    type: 'ISFJ',
-    imageSrc: './images/result-ISFJ.jpeg',
-    messageList: [
+    type: 'ISTJ',
+    score: 78,
+    text: '신뢰성과 책임감을 중요시하는 두 분. 서로의 안정적인 성향을 존중하며 믿음직한 관계를 유지하는 커플이에요. 항상 성실하고 책임감 있게 서로를 대합니다.',
+    loveIndexList: [
       {
         id: 1,
-        text: '꿈을 위해선 물불안가리고 달려는 타입'
+        type: 'affection',
+        score: 70,
+        text: '애정표현력'
       },
       {
         id: 2,
-        text: '단 1분도 허투로 쓰고 싶지 않은 프로효율러'
+        type: 'sense',
+        score: 85,
+        text: '눈치력'
       },
       {
         id: 3,
-        text: '물론 본인이 느끼기에 게으름 피우는 날도 많아요. 근데 다른 사람들 눈에는? 그게 게으름으로 안 보일 뿐'
+        type: 'driving',
+        score: 75,
+        text: '썸 추진력'
       },
+      {
+        id: 4,
+        type: 'sexy',
+        score: 65,
+        text: '19금력'
+      }
     ]
   },
   {
     id: 16,
-    type: 'ISFP',
-    imageSrc: './images/result-ISFP.jpeg',
-    messageList: [
+    type: 'ISTP',
+    score: 76,
+    text: '조용하고 분석적인 두 분. 서로의 독립성을 존중하며 깊이 있는 대화를 나누는 커플이에요. 언제나 논리적으로 문제를 해결하며 함께 성장합니다.',
+    loveIndexList: [
       {
         id: 1,
-        text: '꿈을 위해선 물불안가리고 달려는 타입'
+        type: 'affection',
+        score: 75,
+        text: '애정표현력'
       },
       {
         id: 2,
-        text: '단 1분도 허투로 쓰고 싶지 않은 프로효율러'
+        type: 'sense',
+        score: 80,
+        text: '눈치력'
       },
       {
         id: 3,
-        text: '물론 본인이 느끼기에 게으름 피우는 날도 많아요. 근데 다른 사람들 눈에는? 그게 게으름으로 안 보일 뿐'
+        type: 'driving',
+        score: 70,
+        text: '썸 추진력'
       },
+      {
+        id: 4,
+        type: 'sexy',
+        score: 65,
+        text: '19금력'
+      }
     ]
-  },
-]
+  }
+];
+
 
 export const resultButtonList: ResultButtonType[] = [
   {
     id: 1,
-    type: 'link',
+    type: 'function',
     link: '/',
-    text: '다시 테스트하러 가기'
+    text: '친구에게 공유하기',
+    icon: IoMdShareAlt
   },
   {
     id: 2,
-    type: 'function',
-    text: '테스트 공유하기'
+    type: 'link',
+    link: '/',
+    text: '궁합 다시보기',
+    icon: IoMdRefresh
   },
 ]

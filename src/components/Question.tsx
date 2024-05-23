@@ -10,7 +10,7 @@ const Question: FC<QuestionProps> = ({ data }) => {
   return (
     <div className="text-center">
       <h3 className="text-4xl font-cafe24surround">Qusetion {code}</h3>
-      <span className="block pt-10 text-2xl font-cafe24surround">{questionText} {`${data.questionType}/${data.firstType} / ${data.lastType}`}</span>
+      <span className="block pt-10 text-2xl font-cafe24surround">{questionText}</span>
     </div>
   )
 }

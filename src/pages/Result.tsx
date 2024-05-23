@@ -17,12 +17,10 @@ const Result: FC = () => {
   const [result, setResult] = useRecoilState(resultState)
 
   const handleClick = (type: ButtonType, data: ResultButtonType): void => {
-    // console.log('click', type)
     type === 'link' && data.link && navigate(data.link)
   }
 
   useEffect(() => {
-    console.log('mbtiValue', mbtiValue)
     const sortedValue = [...mbtiValue].sort((a, b) => a.questionTypeCode - b.questionTypeCode)
     const resultValue = sortedValue
       .map((value) => {
@@ -36,9 +34,9 @@ const Result: FC = () => {
     setResult(mbtiResultList.find((result) => result.type === resultValue) || initialResult)
   }, [mbtiValue, setResult])
 
-  useEffect(() => {
-    console.log('result', result)
-  }, [result])
+  // useEffect(() => {
+  //   console.log('result', result)
+  // }, [result])
 
   return (
     <section className='pt-10 pb-8'>

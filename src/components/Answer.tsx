@@ -21,7 +21,7 @@ const Answer: FC<AnswerProps> = ({ data, handleSelect }) => {
             type="button"
             className={`${style.roundBox} rounded-xl bg-white border-2 border-black`}
             onClick={() => handleClick(answer)}>
-            {answer.text} {answer.type}
+            {answer.text}
           </button>
         </div>
       ))}

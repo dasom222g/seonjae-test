@@ -57,6 +57,14 @@ module.exports = {
       backgroundSize: {
         'hand-heart': '34px 67px',
       },
+      minWidth: {
+        16: '4rem',
+        20: '5rem',
+      },
+      maxWidth: {
+        16: '4rem',
+        20: '5rem',
+      },
     },
   },
   plugins: [require('@designbycode/tailwindcss-text-stroke')],

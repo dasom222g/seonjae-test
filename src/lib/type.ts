@@ -1,3 +1,5 @@
+import { IconType } from 'react-icons'
+
 export interface AnswerType {
   code: number
   type: CategoryType
@@ -24,7 +26,7 @@ const categorys = {
 
 const buttons = {
   1: 'link',
-  2: 'function' 
+  2: 'function'
 } as const
 
 export type IndicatorType = typeof indicators[keyof typeof indicators] // 'EI' | 'NS' | 'TF' | 'PJ'
@@ -66,20 +68,37 @@ export interface MBTIValueType {
   resultValue: PartialRecord<CategoryType, number>
 }
 
-interface resultMessageType {
-  id: number,
+// result 값
+
+const loveIndex = {
+  1: 'affection', // 애정표현력 지수
+  2: 'sense', // 눈치력 지수
+  3: 'driving', // 썸 추진력 지수
+  4: 'sexy', // 19금력 지수
+} as const
+interface LoveIndexType {
+  id: number
+  type: typeof loveIndex[keyof typeof loveIndex] // 'affection' | 'sense' | 'driving' | 'sexy' ...
+  score: number,
   text: string
 }
+
 export interface ResultType {
   id: number
   type: string //'ENTJ..'
-  imageSrc: string
-  messageList: resultMessageType[]
+  score: number // 궁합지수
+  text: string
+  loveIndexList: LoveIndexType[],
 }
 
 export interface ResultButtonType {
   id: number
   type: ButtonType,
   text: string,
+  icon: IconType,
   link?: string
 }
+
+
+
+

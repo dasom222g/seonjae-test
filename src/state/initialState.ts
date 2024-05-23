@@ -5,22 +5,35 @@ export const initialQuestionStep: QuestionStepType = {
   current: 1
 }
 
-export const initialResult:ResultType = {
+export const initialResult: ResultType = {
   id: 1,
   type: 'ENTJ',
-  imageSrc: './images/result-ENTJ.jpeg',
-  messageList: [
+  score: 85,
+  text: '서로를 만나기 위해 이 땅에 태어났다 해도 결코 어색하지 않은 두 분이에요. 하나부터 열까지 찰떡 궁합을 자랑하는 두 분! 절대 거부할 수 없는 최고의 짝꿍이랍니다. 온 우주가 두 분의 미래를 응원할거예요.',
+  loveIndexList: [
     {
       id: 1,
-      text: '꿈을 위해선 물불안가리고 달려는 타입'
+      type: 'affection',
+      score: 90,
+      text: '애정표현력'
     },
     {
       id: 2,
-      text: '단 1분도 허투로 쓰고 싶지 않은 프로효율러'
+      type: 'sense',
+      score: 75,
+      text: '눈치력'
     },
     {
       id: 3,
-      text: '물론 본인이 느끼기에 게으름 피우는 날도 많아요. 근데 다른 사람들 눈에는? 그게 게으름으로 안 보일 뿐'
+      type: 'driving',
+      score: 80,
+      text: '썸 추진력'
     },
+    {
+      id: 4,
+      type: 'sexy',
+      score: 70,
+      text: '19금력'
+    }
   ]
-}
+};

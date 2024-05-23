@@ -10,6 +10,7 @@ module.exports = {
         'mbti-yellow': '#F9F9CF',
         'mbti-deep-yellow': '#fff890',
         'mbti-blue': '#1898fd',
+        'mbti-light-blue': '#9cd2ff',
         'mbti-purple': '#C17DD1',
         'mbti-deep-purple': '#5d62fa',
         'mbti-mint': '#8CFFEE',
@@ -40,11 +41,21 @@ module.exports = {
         eland: ['ELAND_Nice_M', 'sans-serif'],
         pretendard: ['Pretendard-Regular', 'sans-serif'],
       },
+      height: {
+        12.5: '52px',
+      },
+      maxHeight: {
+        12.5: '52px',
+      },
       padding: {
         full: '100%',
+        12.5: '52px',
       },
       borderRadius: {
         '4xl': '2.25rem',
+      },
+      backgroundSize: {
+        'hand-heart': '34px 67px',
       },
     },
   },

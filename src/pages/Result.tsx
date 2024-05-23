@@ -64,10 +64,10 @@ const Result: FC = () => {
       </div>
       {/* END: 로고 텍스트 */}
       <div className="py-4">
-        <Score />
+        <Score score={result.score} />
       </div>
       <div className='py-4'>
-        <LoveIndex />
+        <LoveIndex list={result.loveIndexList} />
       </div>
       <div className="py-4">
         <ResultMessage data={result} />

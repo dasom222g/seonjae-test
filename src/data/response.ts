@@ -348,517 +348,198 @@ export const mbtiAnswer: MBTIAnswerType[] = [
 export const mbtiResultList: ResultType[] = [
   {
     id: 1,
-    type: 'ENTJ',
-    score: 85,
-    text: '서로를 만나기 위해 이 땅에 태어났다 해도 결코 어색하지 않은 두 분이에요. 하나부터 열까지 찰떡 궁합을 자랑하는 두 분! 절대 거부할 수 없는 최고의 짝꿍이랍니다. 온 우주가 두 분의 미래를 응원할거예요.',
+    type: 'ENFP',
+    score: 100,
+    text: '서로를 만나기 위해 이 땅에 태어났다 해도 결코 어색하지 않은 두 분이에요. 하나부터 열까지 찰떡 궁합을 자랑하는 두 분! 절대 거부할 수 없는 최고의 짝꿍이랍니다. 온 우주가 두 분의 미래를 응원할 거예요. 함께 하는 매 순간이 영화 같을 거예요. 선재의 예술적 감성과 당신의 재기발랄함이 완벽한 조화를 이루니까요. 함께하는 매 순간이 드라마 속 명장면처럼 아름답고 감동적일 거예요.',
     loveIndexList: [
-      {
-        id: 1,
-        type: 'affection',
-        score: 90,
-        text: '애정표현력'
-      },
-      {
-        id: 2,
-        type: 'sense',
-        score: 75,
-        text: '눈치력'
-      },
-      {
-        id: 3,
-        type: 'driving',
-        score: 80,
-        text: '썸 추진력'
-      },
-      {
-        id: 4,
-        type: 'sexy',
-        score: 70,
-        text: '19금력'
-      }
+      { id: 1, type: 'affection', score: 100, text: '애정표현력' },
+      { id: 2, type: 'sense', score: 95, text: '눈치력' },
+      { id: 3, type: 'driving', score: 90, text: '썸 추진력' },
+      { id: 4, type: 'sexy', score: 85, text: '19금력' }
     ]
   },
   {
     id: 2,
-    type: 'ENFP',
-    score: 83,
-    text: '열정적이고 창의적인 두 분! 서로의 아이디어와 에너지를 끊임없이 나누며 최고의 팀워크를 자랑합니다. 항상 서로에게 긍정적인 영향을 미치는 커플이에요.',
+    type: 'ENFJ',
+    score: 95,
+    text: '두 분은 서로의 마음을 읽는 능력이 탁월합니다. 선재의 깊은 감정과 당신의 따뜻한 배려심이 완벽하게 맞아떨어져요. 함께라면 모든 어려움을 극복할 수 있을 거예요. 드라마 속에서도 항상 서로를 지켜주는 든든한 파트너가 될 거예요. 선재와 당신은 마치 운명처럼 서로를 알아보고, 함께 성장할 수 있는 멋진 관계를 만들어갈 거예요.',
     loveIndexList: [
-      {
-        id: 1,
-        type: 'affection',
-        score: 85,
-        text: '애정표현력'
-      },
-      {
-        id: 2,
-        type: 'sense',
-        score: 70,
-        text: '눈치력'
-      },
-      {
-        id: 3,
-        type: 'driving',
-        score: 90,
-        text: '썸 추진력'
-      },
-      {
-        id: 4,
-        type: 'sexy',
-        score: 75,
-        text: '19금력'
-      }
+      { id: 1, type: 'affection', score: 95, text: '애정표현력' },
+      { id: 2, type: 'sense', score: 100, text: '눈치력' },
+      { id: 3, type: 'driving', score: 85, text: '썸 추진력' },
+      { id: 4, type: 'sexy', score: 80, text: '19금력' }
     ]
   },
   {
     id: 3,
-    type: 'INFJ',
-    score: 88,
-    text: '깊은 이해와 배려를 바탕으로 한 관계. 서로의 마음을 깊이 이해하며 진정한 소울메이트가 되어 줍니다. 언제나 서로를 지지하고 응원하는 두 분이에요.',
+    type: 'INFP',
+    score: 90,
+    text: '선재의 감성적인 면과 당신의 상상력이 만나면 환상적인 궁합을 이루게 됩니다. 둘 다 깊은 내면의 세계를 가지고 있어 서로를 완벽하게 이해할 수 있어요. 이 둘의 사랑은 마치 꿈같은 이야기처럼 아름다울 거예요. 두 사람의 감성적인 대화와 공감은 누구도 흉내 낼 수 없는 특별한 관계를 만들어 줄 거예요.',
     loveIndexList: [
-      {
-        id: 1,
-        type: 'affection',
-        score: 92,
-        text: '애정표현력'
-      },
-      {
-        id: 2,
-        type: 'sense',
-        score: 85,
-        text: '눈치력'
-      },
-      {
-        id: 3,
-        type: 'driving',
-        score: 70,
-        text: '썸 추진력'
-      },
-      {
-        id: 4,
-        type: 'sexy',
-        score: 65,
-        text: '19금력'
-      }
+      { id: 1, type: 'affection', score: 90, text: '애정표현력' },
+      { id: 2, type: 'sense', score: 90, text: '눈치력' },
+      { id: 3, type: 'driving', score: 75, text: '썸 추진력' },
+      { id: 4, type: 'sexy', score: 70, text: '19금력' }
     ]
   },
   {
     id: 4,
-    type: 'INTJ',
-    score: 80,
-    text: '지적이고 전략적인 두 분. 서로의 목표를 이해하고 지원하며 함께 성장해 나가는 커플이에요. 항상 논리적이고 현실적인 접근을 통해 문제를 해결해 나갑니다.',
+    type: 'INFJ',
+    score: 85,
+    text: '같은 유형으로 서로를 잘 이해할 수 있습니다. 선재와 당신은 서로의 감정을 깊이 공유하며, 같은 방향을 바라볼 수 있어요. 서로의 비밀을 가장 먼저 공유하는 사이가 될 거예요. 둘 다 조용한 성향이어서 때때로 감정표현이 부족할 수도 있지만, 서로를 배려하는 마음이 깊어 아름다운 사랑을 만들어 갈 수 있습니다.',
     loveIndexList: [
-      {
-        id: 1,
-        type: 'affection',
-        score: 70,
-        text: '애정표현력'
-      },
-      {
-        id: 2,
-        type: 'sense',
-        score: 80,
-        text: '눈치력'
-      },
-      {
-        id: 3,
-        type: 'driving',
-        score: 85,
-        text: '썸 추진력'
-      },
-      {
-        id: 4,
-        type: 'sexy',
-        score: 75,
-        text: '19금력'
-      }
+      { id: 1, type: 'affection', score: 85, text: '애정표현력' },
+      { id: 2, type: 'sense', score: 85, text: '눈치력' },
+      { id: 3, type: 'driving', score: 65, text: '썸 추진력' },
+      { id: 4, type: 'sexy', score: 65, text: '19금력' }
     ]
   },
   {
     id: 5,
-    type: 'ESFJ',
-    score: 90,
-    text: '따뜻하고 사교적인 두 분. 서로의 감정을 잘 이해하고 항상 서로를 배려하며 지내는 커플이에요. 주변 사람들에게도 긍정적인 영향을 미치는 아름다운 관계입니다.',
+    type: 'INTJ',
+    score: 80,
+    text: '선재의 예술적 감성과 당신의 전략적 사고가 만나면 독특한 시너지를 낼 수 있어요. 선재는 당신의 논리적 접근을 존경하고, 당신은 선재의 창의성을 존중할 거예요. 그러나 때로는 감정과 논리가 충돌할 수 있으니 조심하세요. 이런 차이점이 오히려 서로를 더 이해하고 성장하게 만드는 계기가 될 수 있습니다.',
     loveIndexList: [
-      {
-        id: 1,
-        type: 'affection',
-        score: 95,
-        text: '애정표현력'
-      },
-      {
-        id: 2,
-        type: 'sense',
-        score: 85,
-        text: '눈치력'
-      },
-      {
-        id: 3,
-        type: 'driving',
-        score: 80,
-        text: '썸 추진력'
-      },
-      {
-        id: 4,
-        type: 'sexy',
-        score: 70,
-        text: '19금력'
-      }
+      { id: 1, type: 'affection', score: 75, text: '애정표현력' },
+      { id: 2, type: 'sense', score: 80, text: '눈치력' },
+      { id: 3, type: 'driving', score: 60, text: '썸 추진력' },
+      { id: 4, type: 'sexy', score: 65, text: '19금력' }
     ]
   },
   {
     id: 6,
-    type: 'ESFP',
-    score: 87,
-    text: '활발하고 에너제틱한 두 분. 항상 새로운 모험을 함께하며 인생을 즐기는 커플이에요. 서로의 삶에 활력을 불어넣으며 언제나 즐거운 시간을 보냅니다.',
+    type: 'ENTJ',
+    score: 75,
+    text: '선재와 당신은 목표 지향적인 성향을 공유합니다. 함께라면 어떤 어려움도 헤쳐 나갈 수 있을 거예요. 선재의 예술적 비전과 당신의 리더십이 강력한 팀을 이루겠지만, 둘 다 리더가 되려는 경향이 있어 갈등이 생길 수 있어요. 서로의 장점을 최대한 발휘하여 더욱 멋진 미래를 만들어 갈 수 있습니다.',
     loveIndexList: [
-      {
-        id: 1,
-        type: 'affection',
-        score: 90,
-        text: '애정표현력'
-      },
-      {
-        id: 2,
-        type: 'sense',
-        score: 75,
-        text: '눈치력'
-      },
-      {
-        id: 3,
-        type: 'driving',
-        score: 90,
-        text: '썸 추진력'
-      },
-      {
-        id: 4,
-        type: 'sexy',
-        score: 80,
-        text: '19금력'
-      }
+      { id: 1, type: 'affection', score: 80, text: '애정표현력' },
+      { id: 2, type: 'sense', score: 85, text: '눈치력' },
+      { id: 3, type: 'driving', score: 75, text: '썸 추진력' },
+      { id: 4, type: 'sexy', score: 70, text: '19금력' }
     ]
   },
   {
     id: 7,
-    type: 'ISFJ',
-    score: 85,
-    text: '신뢰와 안정감을 주는 두 분. 서로의 감정을 깊이 이해하며 헌신적으로 사랑하는 커플이에요. 항상 서로를 지지하며 안정적인 관계를 유지합니다.',
+    type: 'ISFP',
+    score: 70,
+    text: '선재의 깊은 감정과 당신의 자유로운 영혼이 만나면, 서로에게 큰 영감을 줄 수 있습니다. 예술적 감수성을 공유하며, 함께하는 시간마다 새로운 것을 배울 거예요. 하지만 둘 다 감정 표현이 서툴러 오해가 생길 수 있어요. 서로의 차이를 이해하고 존중한다면, 더욱 깊은 사랑을 나눌 수 있습니다.',
     loveIndexList: [
-      {
-        id: 1,
-        type: 'affection',
-        score: 85,
-        text: '애정표현력'
-      },
-      {
-        id: 2,
-        type: 'sense',
-        score: 90,
-        text: '눈치력'
-      },
-      {
-        id: 3,
-        type: 'driving',
-        score: 70,
-        text: '썸 추진력'
-      },
-      {
-        id: 4,
-        type: 'sexy',
-        score: 60,
-        text: '19금력'
-      }
+      { id: 1, type: 'affection', score: 70, text: '애정표현력' },
+      { id: 2, type: 'sense', score: 75, text: '눈치력' },
+      { id: 3, type: 'driving', score: 60, text: '썸 추진력' },
+      { id: 4, type: 'sexy', score: 65, text: '19금력' }
     ]
   },
   {
     id: 8,
-    type: 'ISFP',
-    score: 82,
-    text: '조용하고 예술적인 두 분. 서로의 창의성과 감성을 존중하며 함께 시간을 보내는 커플이에요. 언제나 서로의 마음을 이해하고 배려하는 관계입니다.',
+    type: 'ESFP',
+    score: 65,
+    text: '선재의 감성적인 면과 당신의 활기찬 에너지가 만났을 때, 재미있고 흥미로운 관계가 형성됩니다. 그러나 둘 다 충동적인 면이 있어 갈등이 생길 수 있습니다. 서로의 차이를 이해하고 존중한다면 행복한 시간을 보낼 수 있어요. 함께하는 순간순간이 즐거움과 웃음으로 가득할 것입니다.',
     loveIndexList: [
-      {
-        id: 1,
-        type: 'affection',
-        score: 80,
-        text: '애정표현력'
-      },
-      {
-        id: 2,
-        type: 'sense',
-        score: 85,
-        text: '눈치력'
-      },
-      {
-        id: 3,
-        type: 'driving',
-        score: 75,
-        text: '썸 추진력'
-      },
-      {
-        id: 4,
-        type: 'sexy',
-        score: 70,
-        text: '19금력'
-      }
+      { id: 1, type: 'affection', score: 85, text: '애정표현력' },
+      { id: 2, type: 'sense', score: 80, text: '눈치력' },
+      { id: 3, type: 'driving', score: 80, text: '썸 추진력' },
+      { id: 4, type: 'sexy', score: 75, text: '19금력' }
     ]
   },
   {
     id: 9,
-    type: 'ENTP',
-    score: 88,
-    text: '지적이고 창의적인 두 분. 서로의 아이디어와 열정을 끊임없이 공유하며 항상 새로운 것을 추구하는 커플이에요. 함께할 때 더 큰 시너지를 발휘합니다.',
+    type: 'ISTJ',
+    score: 60,
+    text: '선재의 감정적이고 창의적인 면과 당신의 실용적이고 계획적인 성향이 충돌할 수 있습니다. 그러나 서로의 차이를 이해하고 존중한다면, 오히려 서로를 보완하는 관계가 될 수 있습니다. 서로의 강점을 살려 더욱 조화로운 관계를 만들어 갈 수 있습니다.',
     loveIndexList: [
-      {
-        id: 1,
-        type: 'affection',
-        score: 85,
-        text: '애정표현력'
-      },
-      {
-        id: 2,
-        type: 'sense',
-        score: 80,
-        text: '눈치력'
-      },
-      {
-        id: 3,
-        type: 'driving',
-        score: 90,
-        text: '썸 추진력'
-      },
-      {
-        id: 4,
-        type: 'sexy',
-        score: 75,
-        text: '19금력'
-      }
+      { id: 1, type: 'affection', score: 65, text: '애정표현력' },
+      { id: 2, type: 'sense', score: 70, text: '눈치력' },
+      { id: 3, type: 'driving', score: 55, text: '썸 추진력' },
+      { id: 4, type: 'sexy', score: 60, text: '19금력' }
     ]
   },
   {
     id: 10,
-    type: 'ENFJ',
-    score: 90,
-    text: '사람들을 이끌고 영감을 주는 두 분. 항상 서로에게 긍정적인 영향을 미치며 주변 사람들에게도 좋은 에너지를 전파하는 커플이에요.',
+    type: 'ESTJ',
+    score: 55,
+    text: '선재와 당신은 매우 다른 성향을 가지고 있지만, 서로에게서 많은 것을 배울 수 있습니다. 선재는 당신의 조직력과 결단력을 존경할 것이며, 당신은 선재의 창의성과 감수성을 존경할 것입니다. 그러나 충돌이 잦을 수 있습니다. 이러한 갈등을 극복한다면 더욱 단단한 관계가 될 수 있습니다.',
     loveIndexList: [
-      {
-        id: 1,
-        type: 'affection',
-        score: 95,
-        text: '애정표현력'
-      },
-      {
-        id: 2,
-        type: 'sense',
-        score: 85,
-        text: '눈치력'
-      },
-      {
-        id: 3,
-        type: 'driving',
-        score: 80,
-        text: '썸 추진력'
-      },
-      {
-        id: 4,
-        type: 'sexy',
-        score: 75,
-        text: '19금력'
-      }
+      { id: 1, type: 'affection', score: 70, text: '애정표현력' },
+      { id: 2, type: 'sense', score: 75, text: '눈치력' },
+      { id: 3, type: 'driving', score: 70, text: '썸 추진력' },
+      { id: 4, type: 'sexy', score: 65, text: '19금력' }
     ]
   },
   {
     id: 11,
-    type: 'INTP',
-    score: 78,
-    text: '논리적이고 분석적인 두 분. 서로의 지적 호기심을 충족시키며 깊이 있는 대화를 나누는 커플이에요. 언제나 서로에게서 배우며 성장합니다.',
+    type: 'ISFJ',
+    score: 50,
+    text: '선재의 예술적 감성과 당신의 현실적이고 보수적인 성향이 충돌할 수 있습니다. 그러나 서로를 이해하고 배려한다면, 따뜻하고 안정적인 관계를 유지할 수 있습니다. 서로의 차이를 이해하고 존중한다면, 진정한 사랑을 이룰 수 있습니다.',
     loveIndexList: [
-      {
-        id: 1,
-        type: 'affection',
-        score: 70,
-        text: '애정표현력'
-      },
-      {
-        id: 2,
-        type: 'sense',
-        score: 75,
-        text: '눈치력'
-      },
-      {
-        id: 3,
-        type: 'driving',
-        score: 80,
-        text: '썸 추진력'
-      },
-      {
-        id: 4,
-        type: 'sexy',
-        score: 65,
-        text: '19금력'
-      }
+      { id: 1, type: 'affection', score: 80, text: '애정표현력' },
+      { id: 2, type: 'sense', score: 90, text: '눈치력' },
+      { id: 3, type: 'driving', score: 65, text: '썸 추진력' },
+      { id: 4, type: 'sexy', score: 60, text: '19금력' }
     ]
   },
   {
     id: 12,
-    type: 'INFP',
-    score: 85,
-    text: '이상적이고 감성적인 두 분. 서로의 꿈과 감정을 깊이 이해하며 진정한 소울메이트가 되어 줍니다. 언제나 서로를 지지하고 응원하는 커플이에요.',
+    type: 'ESFJ',
+    score: 45,
+    text: '선재와 당신은 서로의 차이를 인정하고 배울 수 있다면 좋은 관계를 유지할 수 있습니다. 그러나 감정적인 면에서 서로 다른 성향이 충돌할 수 있으니 조심하세요. 서로의 차이를 이해하고 존중한다면, 더욱 깊은 이해와 사랑을 나눌 수 있습니다.',
     loveIndexList: [
-      {
-        id: 1,
-        type: 'affection',
-        score: 90,
-        text: '애정표현력'
-      },
-      {
-        id: 2,
-        type: 'sense',
-        score: 80,
-        text: '눈치력'
-      },
-      {
-        id: 3,
-        type: 'driving',
-        score: 85,
-        text: '썸 추진력'
-      },
-      {
-        id: 4,
-        type: 'sexy',
-        score: 70,
-        text: '19금력'
-      }
+      { id: 1, type: 'affection', score: 90, text: '애정표현력' },
+      { id: 2, type: 'sense', score: 95, text: '눈치력' },
+      { id: 3, type: 'driving', score: 75, text: '썸 추진력' },
+      { id: 4, type: 'sexy', score: 70, text: '19금력' }
     ]
   },
   {
     id: 13,
-    type: 'ESTJ',
-    score: 82,
-    text: '실용적이고 효율적인 두 분. 서로의 목표를 명확하게 이해하며 함께 계획을 세워 나가는 커플이에요. 언제나 논리적이고 실용적인 접근을 통해 문제를 해결합니다.',
+    type: 'ISTP',
+    score: 40,
+    text: '선재의 감정적이고 예술적인 면과 당신의 논리적이고 실용적인 성향이 충돌할 수 있습니다. 그러나 서로를 이해하고 배려한다면, 상호 보완적인 관계가 될 수 있습니다. 이러한 갈등을 극복하고 더 나은 관계를 만들어 갈 수 있습니다.',
     loveIndexList: [
-      {
-        id: 1,
-        type: 'affection',
-        score: 75,
-        text: '애정표현력'
-      },
-      {
-        id: 2,
-        type: 'sense',
-        score: 85,
-        text: '눈치력'
-      },
-      {
-        id: 3,
-        type: 'driving',
-        score: 80,
-        text: '썸 추진력'
-      },
-      {
-        id: 4,
-        type: 'sexy',
-        score: 70,
-        text: '19금력'
-      }
+      { id: 1, type: 'affection', score: 60, text: '애정표현력' },
+      { id: 2, type: 'sense', score: 65, text: '눈치력' },
+      { id: 3, type: 'driving', score: 50, text: '썸 추진력' },
+      { id: 4, type: 'sexy', score: 55, text: '19금력' }
     ]
   },
   {
     id: 14,
     type: 'ESTP',
-    score: 80,
-    text: '활동적이고 모험적인 두 분. 항상 새로운 경험을 추구하며 함께 모험을 떠나는 커플이에요. 언제나 에너지가 넘치고 즐거운 시간을 보냅니다.',
+    score: 40,
+    text: '선재와 당신은 매우 다른 성향을 가지고 있어 갈등이 잦을 수 있습니다. 그러나 서로를 이해하고 존중한다면, 흥미롭고 재미있는 관계를 유지할 수 있습니다. 서로의 차이를 이해하고 존중한다면, 진정한 사랑을 이룰 수 있습니다.',
     loveIndexList: [
-      {
-        id: 1,
-        type: 'affection',
-        score: 80,
-        text: '애정표현력'
-      },
-      {
-        id: 2,
-        type: 'sense',
-        score: 75,
-        text: '눈치력'
-      },
-      {
-        id: 3,
-        type: 'driving',
-        score: 85,
-        text: '썸 추진력'
-      },
-      {
-        id: 4,
-        type: 'sexy',
-        score: 70,
-        text: '19금력'
-      }
+      { id: 1, type: 'affection', score: 80, text: '애정표현력' },
+      { id: 2, type: 'sense', score: 70, text: '눈치력' },
+      { id: 3, type: 'driving', score: 85, text: '썸 추진력' },
+      { id: 4, type: 'sexy', score: 80, text: '19금력' }
     ]
   },
   {
     id: 15,
-    type: 'ISTJ',
-    score: 78,
-    text: '신뢰성과 책임감을 중요시하는 두 분. 서로의 안정적인 성향을 존중하며 믿음직한 관계를 유지하는 커플이에요. 항상 성실하고 책임감 있게 서로를 대합니다.',
+    type: 'INTP',
+    score: 40,
+    text: '선재의 감정적이고 창의적인 면과 당신의 논리적이고 분석적인 성향이 충돌할 수 있습니다. 그러나 서로의 차이를 이해하고 존중한다면, 서로를 보완하는 관계가 될 수 있습니다. 서로의 차이를 이해하고 존중한다면, 진정한 사랑을 이룰 수 있습니다.',
     loveIndexList: [
-      {
-        id: 1,
-        type: 'affection',
-        score: 70,
-        text: '애정표현력'
-      },
-      {
-        id: 2,
-        type: 'sense',
-        score: 85,
-        text: '눈치력'
-      },
-      {
-        id: 3,
-        type: 'driving',
-        score: 75,
-        text: '썸 추진력'
-      },
-      {
-        id: 4,
-        type: 'sexy',
-        score: 65,
-        text: '19금력'
-      }
+      { id: 1, type: 'affection', score: 70, text: '애정표현력' },
+      { id: 2, type: 'sense', score: 75, text: '눈치력' },
+      { id: 3, type: 'driving', score: 55, text: '썸 추진력' },
+      { id: 4, type: 'sexy', score: 60, text: '19금력' }
     ]
   },
   {
     id: 16,
-    type: 'ISTP',
-    score: 76,
-    text: '조용하고 분석적인 두 분. 서로의 독립성을 존중하며 깊이 있는 대화를 나누는 커플이에요. 언제나 논리적으로 문제를 해결하며 함께 성장합니다.',
+    type: 'ENTP',
+    score: 40,
+    text: '선재와 당신은 매우 다른 성향을 가지고 있어 갈등이 잦을 수 있습니다. 그러나 서로를 이해하고 존중한다면, 흥미롭고 도전적인 관계를 유지할 수 있습니다. 서로의 차이를 이해하고 존중한다면, 진정한 사랑을 이룰 수 있습니다.',
     loveIndexList: [
-      {
-        id: 1,
-        type: 'affection',
-        score: 75,
-        text: '애정표현력'
-      },
-      {
-        id: 2,
-        type: 'sense',
-        score: 80,
-        text: '눈치력'
-      },
-      {
-        id: 3,
-        type: 'driving',
-        score: 70,
-        text: '썸 추진력'
-      },
-      {
-        id: 4,
-        type: 'sexy',
-        score: 65,
-        text: '19금력'
-      }
+      { id: 1, type: 'affection', score: 85, text: '애정표현력' },
+      { id: 2, type: 'sense', score: 80, text: '눈치력' },
+      { id: 3, type: 'driving', score: 90, text: '썸 추진력' },
+      { id: 4, type: 'sexy', score: 75, text: '19금력' }
     ]
   }
 ];
+
 
 
 export const resultButtonList: ResultButtonType[] = [

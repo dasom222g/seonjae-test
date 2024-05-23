@@ -76,7 +76,7 @@ const loveIndex = {
   3: 'driving', // 썸 추진력 지수
   4: 'sexy', // 19금력 지수
 } as const
-interface LoveIndexType {
+export interface LoveIndexType {
   id: number
   type: typeof loveIndex[keyof typeof loveIndex] // 'affection' | 'sense' | 'driving' | 'sexy' ...
   score: number,

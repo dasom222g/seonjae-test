@@ -302,7 +302,7 @@ export const mbtiAnswer: MBTIAnswerType[] = [
       {
         code: 1,
         type: 'I',
-        text: '선재가 내 마음을 알아주면 않을까?',
+        text: '선재가 내 마음을 알아주지 않을까?',
       },
     ],
   },

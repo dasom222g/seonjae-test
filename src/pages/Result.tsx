@@ -32,8 +32,11 @@ const Result: FC = () => {
   };
 
   const handleClick = (type: ButtonType, data: ResultButtonType): void => {
-    type === 'link' && data.link && navigate(data.link)
-    return
+    if (type === 'link') {
+      data.link && navigate(data.link)
+      return
+    }
+    console.log('share')
     share()
   }
 

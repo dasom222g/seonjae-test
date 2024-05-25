@@ -17,7 +17,8 @@ module.exports = {
         'mbti-deep-mint': '#d0e9cc',
         'mbti-pink': '#FF9CAA',
         'mbti-light-pink': '#FFE5E6',
-        'mbti-red': '#fa517c',
+        'mbti-red': '#FF0000',
+        'mbti-mac-red': '#fa517c',
 
         'mbti-light-mint': '#6EFFEE',
         'mbti-deeplight-mint': '#C3FCF1',

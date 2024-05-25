@@ -23,17 +23,21 @@ const Home: FC = () => {
       <div className="text-center relative">
         <i className="absolute -left-1 -top-4 bg-[url('../public/images/icon/main-icon-wave.png')] w-[71px] h-[29px]" /> {/* icon */}
         <img src="./images/sn-logo.svg" alt="선재 업고 튀어 텍스트 로고" />
-        <span className="flex justify-center items-end font-cafe24surround text-3xl font-bold bg-mbti-yellow p-1 text-stroke-1 text-stroke-black text-white">
+        <span className="flex justify-center items-end font-cafe24surround text-3xl font-bold p-1 text-stroke-1 text-stroke-black text-white">
           <span className='block text-5xl text-mbti-pink transform rotate-12 origin-right'>궁</span>합 <span className='block text-5xl text-mbti-light-pink transform -rotate-12 origin-left'>테</span><span className='block transform -rotate-3 origin-bottom-left'>스트</span>
         </span>
       </div>
       {/* END: 로고 텍스트 */}
       {/* START: 선재 메인 이미지 */}
       <div className="py-8 px-5">
-        <div className=' relative z-10'>
+        <div className='flex justify-end items-center gap-1'>
+          <img src="./images/icon/main-icon-youtube.svg" alt="youtube-icon" className='w-8' />
+          <a href="https://www.youtube.com/@chutzrit" className='font-cafe24surround mbti-red text-mbti-red underline'>By. 후츠릿</a>
+        </div>
+        <div className='relative z-10'>
           {/* START: icon */}
           <i className="absolute -left-10 -top-14 bg-[url('../public/images/icon/main-icon-heart.png')] w-[93px] h-[97px] -z-10" />
-          <i className="absolute -right-10 -top-10 bg-[url('../public/images/icon/main-icon-day.png')] w-[76px] h-[61px]" />
+          <i className="absolute -right-9 -top-3 bg-[url('../public/images/icon/main-icon-day.svg')] w-[72px] h-[47px] bg-contain bg-no-repeat" />
           <i className="absolute right-5 -bottom-3 bg-[url('../public/images/icon/main-icon-heart-small.png')] w-[29px] h-[28px] z-20" />
           {/* END: icon */}
           {/* top */}

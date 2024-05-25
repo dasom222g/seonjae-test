@@ -1,7 +1,7 @@
 const borderSize = 1
 
 export const appleButtonList = [{
-  color: 'bg-mbti-red',
+  color: 'bg-mbti-mac-red',
   borderSize,
 }, {
   color: 'bg-mbti-deep-yellow',

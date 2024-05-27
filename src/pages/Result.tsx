@@ -9,8 +9,6 @@ import { mbtiValueState, resultState } from '../state/dataState'
 import { initialResult } from '../state/initialState'
 import Score from '../components/Score'
 import LoveIndex from '../components/LoveIndex'
-import CopyToClipboard from 'react-copy-to-clipboard'
-import { sleep } from '../lib/utils'
 
 const Result: FC = () => {
   const navigate = useNavigate()
@@ -29,7 +27,8 @@ const Result: FC = () => {
   const share = async (): Promise<void> => {
     try {
       if (!navigator.share) {
-        handleCopy(shareData.url, true);
+        setCopied(true)
+        alert('복사')
         return
       }
       await navigator.share(shareData)
@@ -45,18 +44,6 @@ const Result: FC = () => {
     }
     share()
   }
-
-
-  const handleCopy = async (text: string, result: boolean): Promise<void> => {
-    if (result) {
-      console.log('text', text)
-      setCopied(true);
-      // 추가 동작 수행 가능
-      await sleep(1000)
-      setCopied(false)
-
-    }
-  };
 
   useEffect(() => {
     const sortedValue = [...mbtiValue].sort((a, b) => a.questionTypeCode - b.questionTypeCode)
@@ -122,14 +109,7 @@ const Result: FC = () => {
       </div>
       <div className='py-4'>
         {resultButtonList.map((resultButton) => (
-          <CopyToClipboard
-            key={resultButton.id}
-            text={shareData.url}
-            onCopy={handleCopy}
-          >
-            <Button data={resultButton} handleClick={handleClick} />
-          </CopyToClipboard>
-
+          <Button key={resultButton.id} data={resultButton} handleClick={handleClick} />
         ))}
         {copied && <span style={{ color: 'green' }}>URL이 복사되었습니다!</span>}
       </div>

@@ -17,10 +17,9 @@ const Home: FC = () => {
   }
 
   const handleTrackingYoutube = (): void => {
-    console.log('🚀 ~ handleTrackingYoutube ~ handleTrackingYoutube:', handleTrackingYoutube)
     ReactGA.event({
       category: 'Button',
-      action: 'Click',
+      action: 'VisitChutzrit',
       label: 'Visit YouTube Channel'
     });
   };
@@ -40,7 +39,7 @@ const Home: FC = () => {
       {/* END: 로고 텍스트 */}
       {/* START: 선재 메인 이미지 */}
       <div className="py-8 px-5">
-        <div className='flex justify-e`nd items-center gap-1 pb-1'>
+        <div className='flex justify-end items-center gap-1 pb-1'>
           <img src="./images/icon/main-icon-youtube.svg" alt="youtube-icon" className='w-8' />
           <a href="https://www.youtube.com/@chutzrit" className='font-cafe24surround mbti-red text-mbti-red underline' onClick={handleTrackingYoutube}>By. 후츠릿</a>
         </div>

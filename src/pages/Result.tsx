@@ -9,6 +9,7 @@ import { mbtiValueState, resultState } from '../state/dataState'
 import { initialResult } from '../state/initialState'
 import Score from '../components/Score'
 import LoveIndex from '../components/LoveIndex'
+import ReactGA from 'react-ga4';
 
 const Result: FC = () => {
   const navigate = useNavigate()
@@ -25,6 +26,7 @@ const Result: FC = () => {
   }
 
   const share = async (): Promise<void> => {
+    handleTrackingShare()
     try {
       if (!navigator.share) {
         setCopied(true)
@@ -44,6 +46,14 @@ const Result: FC = () => {
     }
     share()
   }
+
+  const handleTrackingShare = (): void => {
+    ReactGA.event({
+      category: 'Button',
+      action: 'Share',
+      label: 'Share button click'
+    });
+  };
 
   useEffect(() => {
     const sortedValue = [...mbtiValue].sort((a, b) => a.questionTypeCode - b.questionTypeCode)

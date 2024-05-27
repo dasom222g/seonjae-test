@@ -1,3 +1,3 @@
 User-agent: *
 Allow:/
-Sitemap:https://seonjae-test.netlify.app/sitemap.xml
+Sitemap:https://seonjae.netlify.app/sitemap.xml

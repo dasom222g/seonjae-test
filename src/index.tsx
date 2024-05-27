@@ -6,6 +6,11 @@ import App from './App'
 // style
 // import 'tailwindcss/tailwind.css'
 import './index.css'
+import ReactGA from 'react-ga4';
+
+// eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+const gaTrackingID = process.env.REACT_APP_GA_TRACKING_ID!
+ReactGA.initialize(gaTrackingID);
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
 root.render(

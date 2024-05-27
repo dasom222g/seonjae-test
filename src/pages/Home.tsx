@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import { appleButtonList } from '../lib/utils'
 import { useSetRecoilState } from 'recoil'
 import { mbtiValueState } from '../state/dataState'
+import ReactGA from 'react-ga4';
 
 const Home: FC = () => {
   // logic
@@ -14,6 +15,15 @@ const Home: FC = () => {
     setMbtiValue([])
     navigate('/test')
   }
+
+  const handleTrackingYoutube = (): void => {
+    console.log('🚀 ~ handleTrackingYoutube ~ handleTrackingYoutube:', handleTrackingYoutube)
+    ReactGA.event({
+      category: 'Button',
+      action: 'Click',
+      label: 'Visit YouTube Channel'
+    });
+  };
 
   // view
 
@@ -30,9 +40,9 @@ const Home: FC = () => {
       {/* END: 로고 텍스트 */}
       {/* START: 선재 메인 이미지 */}
       <div className="py-8 px-5">
-        <div className='flex justify-end items-center gap-1 pb-1'>
+        <div className='flex justify-e`nd items-center gap-1 pb-1'>
           <img src="./images/icon/main-icon-youtube.svg" alt="youtube-icon" className='w-8' />
-          <a href="https://www.youtube.com/@chutzrit" className='font-cafe24surround mbti-red text-mbti-red underline'>By. 후츠릿</a>
+          <a href="https://www.youtube.com/@chutzrit" className='font-cafe24surround mbti-red text-mbti-red underline' onClick={handleTrackingYoutube}>By. 후츠릿</a>
         </div>
         <div className='relative z-10'>
           {/* START: icon */}

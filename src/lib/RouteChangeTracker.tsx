@@ -20,11 +20,13 @@ const RouteChangeTracker: FC = () => {
       }
       console.error('Google Analytics Tracking ID is not defined');
     }
+    console.log('set!!')
     setInitialized(true);
   }, []);
 
   // initialized 후
   useEffect(() => {
+    console.log('initialized??', initialized)
     if (initialized) {
       ReactGA.set({ page: location.pathname });
       ReactGA.send('pageview');

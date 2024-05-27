@@ -18,7 +18,7 @@ const Result: FC = () => {
 
   const shareData = {
     title: '선재랑 궁합테스트',
-    text: '내 MBTI로 알아보는 선재와의 찰떡궁합 테스트! 드라마 <선재 업고 튀어> 속 캐릭터와 궁합을 확인해 보세요💕',
+    text: '나와 선재의 궁합점수는 몇점일까?드라마 <선재 업고 튀어>의 인기 남자주인공 류선재와 MBTI 기반 궁합테스트를 시작해보세요💕',
     url: 'http://seonjae.site',
   };
 

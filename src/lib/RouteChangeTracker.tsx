@@ -10,6 +10,7 @@ const RouteChangeTracker: FC = () => {
 
   // 진입시
   useEffect(() => {
+    console.log('진입!!')
     if (!window.location.href.includes('localhost')) {
       if (trackingId) {
         ReactGA.initialize(trackingId);

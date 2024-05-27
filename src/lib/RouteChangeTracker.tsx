@@ -13,12 +13,7 @@ const RouteChangeTracker: FC = () => {
     console.log('진입!!')
     if (!window.location.href.includes('localhost')) {
       console.log('배포')
-      if (trackingId) {
-        console.log('trackingId', trackingId)
-        ReactGA.initialize(trackingId);
-        return
-      }
-      console.error('Google Analytics Tracking ID is not defined');
+      trackingId ? ReactGA.initialize(trackingId) : console.error('Google Analytics Tracking ID is not defined');
     }
     console.log('set!!')
     setInitialized(true);

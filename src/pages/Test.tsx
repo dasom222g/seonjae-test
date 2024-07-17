@@ -36,8 +36,11 @@ const Test: FC = () => {
   const handleAnswerSelect = (currentStep: number, selectItem: AnswerType): void => {
     handleNextQuestion(currentStep)
 
+    console.log('🚀 ~ handleAnswerSelect ~ mbtiValue:', mbtiValue)
     const existItem = mbtiValue.find((value) => value.questionTypeCode === questionTypeCode)
+    console.log('🚀existItem:', existItem)
     if (existItem) {
+      // 4가지 타입 중 이미 만들어져 있는 경우
       const sameType = Object.keys(existItem.resultValue).find((key) => key === selectItem.type)
       const ItemValue = existItem.resultValue[firstType]
       const resultData = mbtiValue.map((value) => {
@@ -51,9 +54,12 @@ const Test: FC = () => {
         }
         return value
       })
+
       setMbtiValue(resultData)
       return
     }
+
+    // 4가지 타입중 안만들어져 있는 경우
     setMbtiValue((prev) => [...prev, initialMBTIValue(selectItem.type)])
   }
 
@@ -69,6 +75,10 @@ const Test: FC = () => {
     setQuestionStep(initialQuestionStep)
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
+
+  useEffect(() => {
+    console.log('🚀 ~ mbtiValue:', mbtiValue)
+  }, [mbtiValue])
 
   return (
     <section className="h-full py-12 flex flex-col justify-between">

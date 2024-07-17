@@ -17,6 +17,7 @@ const Result: FC = () => {
   const [copied, setCopied] = useState(false)
 
   const mbtiValue = useRecoilValue(mbtiValueState)
+  // mbti, 궁합점수, 설명, loveIndex로 구성된 결과값의 객체
   const [result, setResult] = useRecoilState(resultState)
 
   const shareData = {
@@ -56,15 +57,18 @@ const Result: FC = () => {
   };
 
   useEffect(() => {
+    // EI, NS, TF, PJ 순으로 정렬
     const sortedValue = [...mbtiValue].sort((a, b) => a.questionTypeCode - b.questionTypeCode)
     const resultValue = sortedValue
       .map((value) => {
-        const itemValue = value.resultValue[value.firstType] || ''
+        // 첫번째 코드에 담간 값
+        const itemValue = value.resultValue[value.firstType] || '' // 0, 1, ..
+        // 순회하면서 E or I, N or S, T or F, P or J 리텀
         const resultType =
           typeof itemValue === 'number' && itemValue > 1 ? value.firstType : value.lastType
         return resultType
       })
-      .join('')
+      .join('') // ENTJ
 
     setResult(mbtiResultList.find((result) => result.type === resultValue) || initialResult)
   }, [mbtiValue, setResult])
